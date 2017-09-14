@@ -1,0 +1,1 @@
+select Title, HireDate from HumanResources.Employee where HireDate = '04.01.2000'
