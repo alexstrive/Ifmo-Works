@@ -1,0 +1,1 @@
+select Name, Color from Production.Product where MakeFlag = 1 and Color is not null order by Color

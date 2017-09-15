@@ -1,0 +1,1 @@
+select Name from Purchasing.Vendor where CreditRating = 2 order by Name desc
