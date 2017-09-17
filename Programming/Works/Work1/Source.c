@@ -20,7 +20,7 @@ void input_int_number()
 
 void pause()
 {
-	printf("Pause");
+	printf("Please enter any key to exit... \n");
 	getchar();
 	getchar();
 }
