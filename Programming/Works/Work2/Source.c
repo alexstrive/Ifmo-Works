@@ -25,10 +25,10 @@ void pause()
 	getchar();
 }
 
-// Вариант 1
+// Variant 1
 int main()
 {
-	// Пользователь вводит радиану или градусную меру угла?
+	// Radians or Degrees?
 	float degree;
 	printf("Enter degree: ");
 	scanf_s("%f", &degree);
