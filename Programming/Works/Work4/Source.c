@@ -1,4 +1,4 @@
-#include <cstdio>
+#include <stdio.h>
 
 #define LOW -100
 #define HIGH 100
@@ -11,7 +11,7 @@ void pause()
 	getchar();
 }
 
-bool check_range(int number, int lowest_range, int highest_range)
+int check_range(int number, int lowest_range, int highest_range)
 {
 	return (number >= lowest_range) && (number <= highest_range);
 }
