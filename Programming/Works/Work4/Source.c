@@ -33,7 +33,7 @@ int main()
 	// task 2
 	printf("Enter a number: ");
 	scanf_s("%d", &numberInput);
-	printf("Value of bit at %d position is %x", BIT_POSITION, get_bit_value(numberInput, BIT_POSITION));
+	printf("Value of bit at %d position is %d", BIT_POSITION, get_bit_value(numberInput, BIT_POSITION));
 
 	pause();
 	return 0;
