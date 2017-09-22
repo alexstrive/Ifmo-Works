@@ -30,10 +30,6 @@ void show_matrix(int matrix[2][2])
 /**
  * Calculate product of two matrix
  * Order is important
- *
- * @param matrix_left
- * @param matrix_right
- * @param matrix_out
  */
 void matrix_product(int matrix_left[2][2], int matrix_right[2][2], int matrix_out[2][2])
 {
