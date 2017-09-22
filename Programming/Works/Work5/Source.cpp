@@ -69,6 +69,7 @@ int main()
 		{0, 0},
 		{0, 0}
 	};
+
 	matrix_product(matrix_a, matrix_b, matrix_c);
 	printf("\nProducted matrix: \n");
 	show_matrix(matrix_c);

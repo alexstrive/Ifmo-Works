@@ -23,7 +23,7 @@ void print_task_title(const int taskNumber)
 
 void pause()
 {
-	printf("\nPlease enter any key to exit... \n");
+	printf("\nPlease enter any key to exit...");
 	getchar();
 	getchar();
 }
@@ -32,6 +32,7 @@ void pause()
 int main()
 {
 	int numberFirst;
+	int numberSecond;
 
 	// task 1
 	print_task_title(1);
@@ -54,7 +55,6 @@ int main()
 
 	// task 5
 	print_task_title(5);
-	int numberSecond;
 	printf("Enter second number (octal): ");
 	scanf_s("%o", &numberSecond);
 	show_number_representation(numberFirst & numberSecond, 8);
