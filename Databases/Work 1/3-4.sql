@@ -1,1 +1,1 @@
-select distinct FirstName from Person.Contact where Title = 'Ms.'
+select distinct FirstName from Person.Contact where Title in ('Mrs.', 'Ms', 'Ms.')
