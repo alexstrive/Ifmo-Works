@@ -1,21 +1,20 @@
+#define _USE_MATH_DEFINES
 #include <stdio.h>
 #include <math.h>
 
-const float PI = 3.14159;
-
 float degree_to_radian(float degree)
 {
-	return degree * PI / 180;
+	return degree * M_PI / 180;
 }
 
 float function_first(float radian)
 {
-	return 2 * pow(sin(3 * PI - 2 * radian), 2) * pow(cos(5 * PI + 2 * radian), 2);
+	return 2 * pow(sin(3 * M_PI - 2 * radian), 2) * pow(cos(5 * M_PI + 2 * radian), 2);
 }
 
 float function_second(float radian)
 {
-	return 0.25 - 0.25 * sin(2.5 * PI - 8 * radian);
+	return 0.25 - 0.25 * sin(2.5 * M_PI - 8 * radian);
 }
 
 void pause()
