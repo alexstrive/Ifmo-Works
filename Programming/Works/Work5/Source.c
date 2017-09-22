@@ -24,17 +24,26 @@ void show_matrix(int matrix[2][2])
 	{
 		show_array(matrix[i], array_cols);
 	}
+	printf("\n");
 }
 
-void production(int matrix_a[2][2], int matrix_b[2][2], int matrix_out[2][2])
+/**
+ * Calculate product of two matrix
+ * Order is important
+ *
+ * @param matrix_left
+ * @param matrix_right
+ * @param matrix_out
+ */
+void matrix_product(int matrix_left[2][2], int matrix_right[2][2], int matrix_out[2][2])
 {
 	for (int row = 0; row < 2; row++)
 	{
 		for (int col = 0; col < 2; col++)
 		{
-			for (int g = 0; g < 2; g++)
+			for (int i = 0; i < 2; i++)
 			{
-				matrix_out[row][col] += matrix_a[row][g] * matrix_b[g][col];
+				matrix_out[row][col] += matrix_left[row][i] * matrix_right[i][col];
 			}
 		}
 	}
@@ -64,7 +73,7 @@ int main()
 		{0, 0},
 		{0, 0}
 	};
-	production(matrix_a, matrix_b, matrix_c);
+	matrix_product(matrix_a, matrix_b, matrix_c);
 	printf("\nProducted matrix: \n");
 	show_matrix(matrix_c);
 
