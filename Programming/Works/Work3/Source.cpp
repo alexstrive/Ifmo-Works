@@ -16,7 +16,7 @@ void show_number_representation(const int number, int base)
 	}
 }
 
-void print_task_title(const int taskNumber)
+void print_title(const int taskNumber)
 {
 	printf("\n--- Task %d ---\n", taskNumber);
 }
@@ -35,26 +35,26 @@ int main()
 	int numberSecond;
 
 	// task 1
-	print_task_title(1);
+	print_title(1);
 	printf("Enter first number (hexadecimal): ");
 	scanf_s("%x", &numberFirst);
 
 	// task 2
-	print_task_title(2);
+	print_title(2);
 	show_number_representation(numberFirst, 8);
 
 	// task 3
-	print_task_title(3);
+	print_title(3);
 	show_number_representation(numberFirst, 8);
 	show_number_representation(numberFirst << 1, 8);
 
 	// task 4
-	print_task_title(4);
+	print_title(4);
 	show_number_representation(numberFirst, 8);
 	show_number_representation(~numberFirst, 8);
 
 	// task 5
-	print_task_title(5);
+	print_title(5);
 	printf("Enter second number (octal): ");
 	scanf_s("%o", &numberSecond);
 	show_number_representation(numberFirst & numberSecond, 8);
