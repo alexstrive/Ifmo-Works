@@ -1,5 +1,5 @@
-select COUNT(EmailAddress)
-	from HumanResources.Employee
-		inner join Person.Contact
-		on Contact.ContactID = Employee.ContactID
-	where EmailAddress is not null
+select COUNT(*)
+from Person.Contact
+	inner join HumanResources.Employee
+	on Employee.ContactID = Contact.ContactID
+where EmailAddress is not null
