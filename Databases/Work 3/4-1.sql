@@ -1,5 +1,6 @@
 select FirstName, LastName, Employee.Title, Phone
-from Person.Contact
-	inner join HumanResources.Employee
-	on Contact.ContactID = Employee.ContactID
-where Phone is not null
+from HumanResources.Employee
+
+	/* get phones */
+	inner join Person.Contact
+	on Employee.ContactID = Contact.ContactID
