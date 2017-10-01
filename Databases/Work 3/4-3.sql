@@ -1,7 +1,14 @@
 select FirstName, LastName, EmailAddress
-from Person.Contact
-	inner join Purchasing.VendorContact
+/* get vendor agent of company*/
+from Purchasing.VendorContact
+
+	/* get name of agent */
+	inner join Person.Contact
 	on VendorContact.ContactID = Contact.ContactID
+
+	/* get name of company */
 	inner join Purchasing.Vendor
-	on Vendor.VendorID = VendorContact.VendorID
+	on VendorContact.VendorID = Vendor.VendorID
+
+/* order by company name*/
 order by Name
