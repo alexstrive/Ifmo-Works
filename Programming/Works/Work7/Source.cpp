@@ -1,4 +1,5 @@
 #define _USE_MATH_DEFINES
+
 #include <stdio.h>
 #include <math.h>
 
@@ -9,7 +10,7 @@ void pause()
 	getchar();
 }
 
-void print_title(const int task_number)
+void show_title(const int task_number)
 {
 	printf("--- Task %d ---\n", task_number);
 }
@@ -22,6 +23,11 @@ float calculate_circuit(float radius)
 float calculate_area(float radius)
 {
 	return M_PI * pow(radius, 2);
+}
+
+char* format_state(int state)
+{
+	return state == 1 ? "On" : "Off";
 }
 
 enum OS
@@ -38,40 +44,44 @@ struct Circle
 	int x;
 	int y;
 	float radius;
-} circle;
+	float border_width;
+};
 
-struct Keyboard
+union Keyboard
 {
-	unsigned num_lock: 1;
-	unsigned caps_lock: 1;
-	unsigned scroll_lock: 1;
+	unsigned short state;
+	struct
+	{
+		unsigned short num_lock : 1;
+		unsigned short caps_lock : 1;
+		unsigned short scroll_lock : 1;
+	} bit_state;
 } keyboard;
 
 // Variant 9
 int main()
 {
 	// Task 1
-	print_title(1);
-	printf("%d \n", OS_SYMBIAN);
-	
-	// Task 2
-	print_title(2);
+	show_title(1);
+	printf("Symbian is %d OS\n", OS_SYMBIAN);
 
-	circle.x = 50;
-	circle.y = 10;
-	circle.radius = 5.0;
+	// Task 2
+	show_title(2);
+
+	const struct Circle circle = {50, 10, 5.0f, 1.5f};
 
 	printf("Caclulated curcuit: %f \n", calculate_circuit(circle.radius));
 	printf("Calculated area: %f \n", calculate_area(circle.radius));
 
 	// Task 3
-	int device_state;
-	print_title(3);
-	printf("Enter device state: ");
-	scanf("%x", &device_state);
-	printf("%d", keyboard.caps_lock | device_state);
+	show_title(3);
+	printf("Enter keyboard state: ");
+	scanf("%x", &keyboard.state);
 
+	printf("Num Lock is %s\n", format_state(keyboard.bit_state.num_lock));
+	printf("Caps Lock is %s\n", format_state(keyboard.bit_state.caps_lock));
+	printf("Scroll Lock is %s\n", format_state(keyboard.bit_state.scroll_lock));
+	
 	pause();
-
 	return 0;
 }

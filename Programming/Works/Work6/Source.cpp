@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <cstdlib>
 
+#define ARRAY_LENGTH 5
+
 void pause()
 {
 	printf("\nPlease enter any key to exit...\n");
@@ -8,7 +10,7 @@ void pause()
 	getchar();
 }
 
-void print_title(const int task_number)
+void show_title(const int task_number)
 {
 	printf("--- Task %d ---\n", task_number);
 }
@@ -28,7 +30,7 @@ void show_array(const int* arr, const int arr_length)
 	printf("\n");
 }
 
-void input_array(const int* arr, const int arr_length)
+void read_array(const int* arr, const int arr_length)
 {
 	printf("Enter array values: ");
 	for (int i = 0; i < arr_length; ++i)
@@ -41,20 +43,20 @@ void input_array(const int* arr, const int arr_length)
 int main()
 {
 	// Task 1
-	print_title(1);
-	int *arr_a = new int[4];
+	show_title(1);
+	int *array_first = new int[ARRAY_LENGTH];
 
-	input_array(arr_a, 4);
-	show_array(arr_a, 4);
+	read_array(array_first, ARRAY_LENGTH);
+	show_array(array_first, ARRAY_LENGTH);
 
 	print_new_line();
 
 	// Task 2
-	print_title(2);
-	int *arr_b = (int*) malloc(sizeof(int) * 4);
+	show_title(2);
+	int *array_second = (int*) malloc(sizeof(int) * ARRAY_LENGTH);
 
-	input_array(arr_b, 4);
-	show_array(arr_b, 4);
+	read_array(array_second, ARRAY_LENGTH);
+	show_array(array_second, ARRAY_LENGTH);
 
 	pause();
 	return 0;
