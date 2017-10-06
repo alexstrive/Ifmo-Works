@@ -1,4 +1,6 @@
-Programming/Works/.vs/
-Programming/Works/Debug
-Programming/Works/**/Debug
+Programming/OldWorks/.vs/
+Programming/OldWorks/Debug
+Programming/OldWorks/**/Debug
+Programming/Works/cmake-build-debug
+Programming/Works/.idea
 ~*
