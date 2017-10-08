@@ -1,1 +1,0 @@
-select Title from HumanResources.Employee where Gender = 'M'

@@ -1,1 +1,0 @@
-select Name, CreditRating from Purchasing.Vendor where CreditRating between 2 and 4

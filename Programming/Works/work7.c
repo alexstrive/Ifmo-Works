@@ -1,21 +1,15 @@
 #include <stdio.h>
 #include <math.h>
 
-void pause() {
-    printf("\nPlease enter any key to exit...\n");
-    getchar();
-    getchar();
-}
-
-void show_title(const int task_number) {
+void showTitle(const int task_number) {
     printf("--- Task %d ---\n", task_number);
 }
 
-float calculate_circuit(float radius) {
+float calculateCircuit(float radius) {
     return M_PI * 2 * radius;
 }
 
-float calculate_area(float radius) {
+float calculateArea(float radius) {
     return M_PI * pow(radius, 2);
 }
 
@@ -35,41 +29,40 @@ struct Circle {
     int x;
     int y;
     float radius;
-    float border_width;
+    float borderWidth;
 };
 
 union Keyboard {
     unsigned short state;
     struct {
-        unsigned short num_lock : 1;
-        unsigned short caps_lock : 1;
-        unsigned short scroll_lock : 1;
-    } bit_state;
+        unsigned short numLock : 1;
+        unsigned short capsLock : 1;
+        unsigned short scrollLock : 1;
+    } bitState;
 } keyboard;
 
 // Variant 9
 int main() {
     // Task 1
-    show_title(1);
-    printf("Symbian is %d OS\n", OS_SYMBIAN);
+    showTitle(1);
+    printf("Symbian is %d\n", OS_SYMBIAN);
 
     // Task 2
-    show_title(2);
+    showTitle(2);
 
     const struct Circle circle = {50, 10, 5.0f, 1.5f};
 
-    printf("Caclulated curcuit: %f \n", calculate_circuit(circle.radius));
-    printf("Calculated area: %f \n", calculate_area(circle.radius));
+    printf("Caclulated curcuit: %f \n", calculateCircuit(circle.radius));
+    printf("Calculated area: %f \n", calculateArea(circle.radius));
 
     // Task 3
-    show_title(3);
+    showTitle(3);
     printf("Enter keyboard state: ");
     scanf("%x", &keyboard.state);
 
-    printf("Num Lock is %s\n", format_state(keyboard.bit_state.num_lock));
-    printf("Caps Lock is %s\n", format_state(keyboard.bit_state.caps_lock));
-    printf("Scroll Lock is %s\n", format_state(keyboard.bit_state.scroll_lock));
+    printf("Num Lock is %s\n", format_state(keyboard.bitState.numLock));
+    printf("Caps Lock is %s\n", format_state(keyboard.bitState.capsLock));
+    printf("Scroll Lock is %s\n", format_state(keyboard.bitState.scrollLock));
 
-    pause();
     return 0;
 }

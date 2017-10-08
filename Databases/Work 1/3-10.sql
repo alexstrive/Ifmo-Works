@@ -1,1 +1,0 @@
-select Title, HireDate from HumanResources.Employee where HireDate between '01.03.1999' and '31.01.2000'

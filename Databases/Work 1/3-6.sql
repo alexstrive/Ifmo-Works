@@ -1,1 +1,0 @@
-select Title, FirstName, LastName, MiddleName, Phone from Person.Contact where Phone like '%016%'

@@ -1,1 +1,0 @@
-select Title, FirstName, LastName, MiddleName, EmailAddress from Person.Contact where EmailPromotion = 1
