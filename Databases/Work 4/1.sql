@@ -10,4 +10,4 @@ FROM Sales.SalesOrderHeader AS SalesOrderHeader
   JOIN Person.Address AS ShipAddress
     ON SalesOrderHeader.ShipToAddressID = ShipAddress.AddressID
 
-WHERE BillAddress.AddressLine1 <> ShipAddress.AddressLine1
+WHERE BillToAddressID <> ShipToAddressID
