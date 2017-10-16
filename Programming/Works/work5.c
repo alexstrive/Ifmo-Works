@@ -1,27 +1,22 @@
 #include <stdio.h>
+#include "utils.h"
 
 // Predefined number of rows and columns
-const int rows = 2;
-const int cols = 2;
+const int MAX_ROWS = 2;
+const int MAX_COLUMNS = 2;
 
-void showArray(const int array[], const int arrayLength) {
-    for (int i = 0; i < arrayLength; i++) {
-        printf("%i ", array[i]);
-    }
-    printf("\n");
-}
-
-void showMatrix(int matrix[rows][cols]) {
-    for (int i = 0; i < rows; i++) {
-        showArray(matrix[i], cols);
+void showMatrix(int matrix[MAX_ROWS][MAX_COLUMNS]) {
+    for (int i = 0; i < MAX_ROWS; i++) {
+        showArray(matrix[i], MAX_COLUMNS);
     }
     printf("\n");
 }
 
 /**
- * Calculate product of two matrix rows x cols
+ * Calculate product of two matrix size of MAX_ROWS x MAX_COLUMNS
  */
-void matrixProduct(int matrixLeft[rows][cols], int matrixRight[rows][cols], int matrixOut[rows][cols]) {
+void matrixProduct(int matrixLeft[MAX_ROWS][MAX_COLUMNS], int matrixRight[MAX_ROWS][MAX_COLUMNS],
+                   int matrixOut[MAX_ROWS][MAX_COLUMNS]) {
     for (int row = 0; row < 2; row++) {
         for (int col = 0; col < 2; col++) {
             for (int i = 0; i < 2; i++) {
@@ -40,17 +35,17 @@ int main() {
     showArray(array, arrayLength);
 
     // Task 2
-    int matrixA[rows][cols] = {
-            {1, 2},
-            {3, 4}
+    int matrixA[MAX_ROWS][MAX_COLUMNS] = {
+            {1,  5},
+            {10, 1}
     };
 
-    int matrixB[rows][cols] = {
-            {1, 0},
-            {0, 2}
+    int matrixB[MAX_ROWS][MAX_COLUMNS] = {
+            {1, 9},
+            {5, 1}
     };
 
-    int matrixC[rows][cols] = {
+    int matrixC[MAX_ROWS][MAX_COLUMNS] = {
             {0, 0},
             {0, 0}
     };

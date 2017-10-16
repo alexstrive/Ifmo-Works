@@ -1,9 +1,6 @@
 #include <printf.h>
 #include <string.h>
-
-void showTitle(const int task_number) {
-    printf("--- Task %d ---\n", task_number);
-}
+#include "utils.h"
 
 /**
  * Compare two strings
@@ -24,7 +21,7 @@ void compareStrings(const char *firstString, const char *secondString) {
 
 /**
  * Compare symbols of first and second strings.
- * Prefer to use strncmp(firstString, secondString, amount)
+ * Prefer to use strncmp
  */
 void compareSymbolsStrings(const char *firstString, const char *secondString, unsigned amountSymbols) {
     char firstPart[256];
@@ -62,26 +59,30 @@ int main() {
     char *firstPart = "Hello";
 
     // Task 1 (3)
-    showTitle(1);
+    showTaskTitle();
+
     compareStrings(phrase, firstPart);
 
     // Task 2 (4)
-    showTitle(2);
+    showTaskTitle();
+
     compareSymbolsStrings(phrase, firstPart, 5);
 
     // Task 3 (7)
-    showTitle(3);
+    showTaskTitle();
+
     int phraseLength = (int) strlen(phrase);
     printf("Length of phrase is %d symbols\n", phraseLength);
 
     // Task 4 (10)
-    showTitle(4);
+    showTaskTitle();
+
     char *targetSymbols = " od";
 
     printf("Symbol from set has found at [%d] position\n", getPosition(phrase, targetSymbols));
 
     // Task 5 (13)
-    showTitle(5);
+    showTaskTitle();
 
     char loremIpsum[] = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             " Duis semper odio at lacinia volutpat."

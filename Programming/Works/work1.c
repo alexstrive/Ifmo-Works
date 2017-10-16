@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "utils.h"
 
 void inputFloatNumber() {
     float floatNumber;
@@ -17,7 +18,14 @@ void inputIntNumber() {
 }
 
 int main() {
+    // Task 1
+    showTaskTitle();
+
     inputFloatNumber();
+
+    // Task 2
+    showTaskTitle();
+
     inputIntNumber();
 
     return 0;

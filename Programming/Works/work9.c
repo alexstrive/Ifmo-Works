@@ -1,55 +1,48 @@
-#include <math.h>
 #include <printf.h>
+#include <stdlib.h>
+#include "utils.h"
 
-int checkPrime(int number) {
-    for (int currentNumber = 0; currentNumber < number / 2; ++currentNumber) {
-        if (number % currentNumber) {
-            return 0;
-        }
-    }
+const int FREE_MINUTES = 499;
 
-    return 1;
+void getTotalMinutes(int *totalMinutes) {
+    printf("Enter total minutes of calls: ");
+    scanf("%d", totalMinutes);
 }
 
-void showPrimes(int lastNumber) {
-    for (int currentNumber = 2; currentNumber <= lastNumber; ++currentNumber) {
-        if (checkPrime(currentNumber)) {
-            printf("%d", currentNumber);
-        }
-    }
+void getSubscriptionFee(int *subscriptionFee) {
+    printf("Enter subscription fee: ");
+    scanf("%d", subscriptionFee);
+}
+
+void getCostOfMinute(int *storage) {
+    printf("Enter price per minute over fee: ");
+    scanf("%d", storage);
+}
+
+void getUserData(int *totalMinutes, int *subscriptionFee, int *pricePerMinute) {
+    getTotalMinutes(totalMinutes);
+    getSubscriptionFee(subscriptionFee);
+    getCostOfMinute(pricePerMinute);
 }
 
 // Variant 17
 int main() {
-    const int freeMinutes = 499;
-
     // Task 1
-    int totalMinutes;
-    int basePrice;
-    int pricePerMinute;
+    showTaskTitle();
 
-//    printf("Enter \n- Total minutes of calls\n- Price of plan\n- Price per minute of over limit: \n");
-//    scanf("%d %d %d", &totalMinutes, &basePrice, &pricePerMinute);
+    int totalMinutes, subscriptionFee, costOfMinute;
+    getUserData(&totalMinutes, &subscriptionFee, &costOfMinute);
 
-    printf("Enter total minutes of calls: ");
-    scanf("%d", &totalMinutes);
+    int deltaMinutes = FREE_MINUTES - totalMinutes;
 
-    printf("Enter price of plan: ");
-    scanf("%d", &basePrice);
+    int totalPrice = (deltaMinutes >= 0)
+                     ? subscriptionFee
+                     : subscriptionFee + costOfMinute * abs(deltaMinutes);
 
-    int deltaMinutes = totalMinutes - 499;
-
-    if (deltaMinutes > 0) {
-
-    }
+    printf("Total price for one month: %d \n\n", totalPrice);
 
     // Task 2
-    int number;
-    scanf("%d", &number);
-
-    for (int i = 1; i <= number; ++i) {
-        printf("%d ", i);
-    }
+    showTaskTitle();
 
     return 0;
 }

@@ -1,10 +1,9 @@
--- No results
 -- Shows duplicates
 -- TODO: clarify this
 
 SELECT
-  FirstCustomer.CustomerID as FirstCustomerID,
-  SecondCustomer.CustomerID as SecondCustomerID
+  FirstCustomer.CustomerID  AS FirstCustomerID,
+  SecondCustomer.CustomerID AS SecondCustomerID
 FROM Sales.CustomerAddress AS FirstCustomer
 
   JOIN Sales.CustomerAddress AS SecondCustomer

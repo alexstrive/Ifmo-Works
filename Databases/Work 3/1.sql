@@ -3,10 +3,10 @@ SELECT
   LastName,
   Employee.Title,
   Phone
-FROM HumanResources.Employee as Employee
+FROM HumanResources.Employee AS Employee
 
   /* get phones */
-  INNER JOIN Person.Contact as Contact
+  INNER JOIN Person.Contact AS Contact
     ON Employee.ContactID = Contact.ContactID
 
 /* show only peoples with phones */

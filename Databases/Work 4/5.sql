@@ -1,7 +1,11 @@
-SELECT '36-37' as Range, BillOfMaterialsID
+SELECT
+  '36-37' AS Range,
+  BillOfMaterialsID
 FROM Production.BillOfMaterials
-WHERE PerAssemblyQty in (36, 37)
+WHERE PerAssemblyQty IN (36, 37)
 UNION
-SELECT '38-40' as Range, BillOfMaterialsID
+SELECT
+  '38-40' AS Range,
+  BillOfMaterialsID
 FROM Production.BillOfMaterials
-WHERE PerAssemblyQty in (38, 40)
+WHERE PerAssemblyQty BETWEEN 38 AND 40

@@ -1,19 +1,16 @@
 #include <stdio.h>
 #include <math.h>
-
-void showTitle(const int task_number) {
-    printf("--- Task %d ---\n", task_number);
-}
+#include "utils.h"
 
 float calculateCircuit(float radius) {
-    return M_PI * 2 * radius;
+    return (float) (M_PI * 2 * radius);
 }
 
 float calculateArea(float radius) {
-    return M_PI * pow(radius, 2);
+    return (float) (M_PI * pow(radius, 2));
 }
 
-char *format_state(int state) {
+char *formatState(int state) {
     return state == 1 ? "On" : "Off";
 }
 
@@ -30,6 +27,8 @@ struct Circle {
     int y;
     float radius;
     float borderWidth;
+    int color;
+    int borderColor;
 };
 
 union Keyboard {
@@ -44,11 +43,12 @@ union Keyboard {
 // Variant 9
 int main() {
     // Task 1
-    showTitle(1);
+    showTaskTitle();
+
     printf("Symbian is %d\n", OS_SYMBIAN);
 
     // Task 2
-    showTitle(2);
+    showTaskTitle();
 
     const struct Circle circle = {50, 10, 5.0f, 1.5f};
 
@@ -56,13 +56,14 @@ int main() {
     printf("Calculated area: %f \n", calculateArea(circle.radius));
 
     // Task 3
-    showTitle(3);
-    printf("Enter keyboard state: ");
+    showTaskTitle();
+
+    printf("Enter keyboard state (hexadecimal): ");
     scanf("%x", &keyboard.state);
 
-    printf("Num Lock is %s\n", format_state(keyboard.bitState.numLock));
-    printf("Caps Lock is %s\n", format_state(keyboard.bitState.capsLock));
-    printf("Scroll Lock is %s\n", format_state(keyboard.bitState.scrollLock));
+    printf("Num Lock is %s\n", formatState(keyboard.bitState.numLock));
+    printf("Caps Lock is %s\n", formatState(keyboard.bitState.capsLock));
+    printf("Scroll Lock is %s\n", formatState(keyboard.bitState.scrollLock));
 
     return 0;
 }

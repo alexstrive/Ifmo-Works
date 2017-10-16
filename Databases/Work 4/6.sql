@@ -1,7 +1,11 @@
-SELECT '1-3' as Range, COUNT(*) as Count
+SELECT
+  '1-3'    AS Range,
+  COUNT(*) AS Count
 FROM Sales.SalesOrderDetail
-WHERE OrderQty IN (1, 3)
+WHERE OrderQty BETWEEN 1 AND 3
 UNION
-SELECT '4-6' as Range, COUNT(*) as Count
+SELECT
+  '4-6'    AS Range,
+  COUNT(*) AS Count
 FROM Sales.SalesOrderDetail
-WHERE OrderQty IN (4, 6)
+WHERE OrderQty BETWEEN 4 AND 6

@@ -4,4 +4,4 @@ SELECT
   MiddleName
 FROM Person.Contact
 WHERE EmailPromotion = 1
-ORDER BY 1, 2, 3s
+ORDER BY 1, 2, 3

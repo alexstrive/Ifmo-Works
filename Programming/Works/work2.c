@@ -15,8 +15,8 @@ double functionSecond(double radian) {
 
 // Variant 1
 int main() {
-    double degree;
-    double radian;
+    double degree, radian;
+
     printf("Enter degree: ");
     scanf("%lf", &degree);
 
