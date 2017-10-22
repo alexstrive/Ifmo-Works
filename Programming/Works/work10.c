@@ -30,7 +30,6 @@ int lcm(int a, int b) {
 int main() {
     // Task 1
     showTaskTitle();
-    // e.g. 45 and 78 – GCD 3 LCM 1170
     int firstNumber, secondNumber;
 
     printf("Enter first number value: ");
