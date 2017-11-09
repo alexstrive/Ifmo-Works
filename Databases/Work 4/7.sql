@@ -3,7 +3,8 @@
 
 SELECT
   FirstCustomer.CustomerID  AS FirstCustomerID,
-  SecondCustomer.CustomerID AS SecondCustomerID
+  SecondCustomer.CustomerID AS SecondCustomerID,
+  FirstAddress.City
 FROM Sales.CustomerAddress AS FirstCustomer
 
   JOIN Sales.CustomerAddress AS SecondCustomer

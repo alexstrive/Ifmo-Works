@@ -1,4 +1,4 @@
-SELECT DISTINCT Boss.NationalIDNumber
+SELECT DISTINCT Boss.EmployeeID
 FROM HumanResources.Employee AS Boss
   JOIN HumanResources.Employee AS Employee
     ON Boss.EmployeeID = Employee.ManagerID
