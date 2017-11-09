@@ -36,7 +36,7 @@ int isPrime(int targetNumber) {
 }
 
 int showPrimes(int targetNumber) {
-    for (int currentNumber = 1; currentNumber <= targetNumber; ++currentNumber) {
+    for (int currentNumber = 2; currentNumber <= targetNumber; ++currentNumber) {
         if (isPrime(currentNumber)) {
             printf("%d ", currentNumber);
         }

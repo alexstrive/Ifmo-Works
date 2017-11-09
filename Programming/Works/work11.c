@@ -2,10 +2,11 @@
 
 // Variant 17
 int main() {
-    struct Pentagon pentagon = createEmptyPentagon();
+    struct Pentagon pentagon;
+    createEmptyPentagon(&pentagon);
     readCoordinates(&pentagon);
 
-    printf("\nPerimeter of pentagon is %d", getPentagonPerimeter(pentagon));
+    printf("\nPerimeter of pentagon is %f", getPentagonPerimeter(pentagon));
 
     return 0;
 }

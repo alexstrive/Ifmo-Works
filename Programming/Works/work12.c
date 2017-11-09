@@ -5,6 +5,7 @@ int addNumbers(int a, int b) {
     return a + b;
 }
 
+// Variant 19
 int main(int argCount, char *argv[]) {
     freopen("../output.txt", "w", stdout);
 
