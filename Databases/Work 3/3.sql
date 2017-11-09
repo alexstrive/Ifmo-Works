@@ -6,11 +6,11 @@ SELECT
 FROM Purchasing.VendorContact AS VendorContact
 
   /* get name of agent */
-  INNER JOIN Person.Contact AS Contact
+  JOIN Person.Contact AS Contact
     ON VendorContact.ContactID = Contact.ContactID
 
   /* get name of company */
-  INNER JOIN Purchasing.Vendor AS Vendor
+  JOIN Purchasing.Vendor AS Vendor
     ON VendorContact.VendorID = Vendor.VendorID
 
 /* order by company name*/

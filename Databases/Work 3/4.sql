@@ -1,10 +1,13 @@
-select FirstName, LastName, Name
-from Purchasing.VendorContact as VendorContact
+SELECT
+  FirstName,
+  LastName,
+  Name
+FROM Purchasing.VendorContact AS VendorContact
 
-	/* get job title of agent */
-	inner join Person.ContactType as ContactType
-	on VendorContact.ContactTypeID = ContactType.ContactTypeID
+  /* get job title of agent */
+  JOIN Person.ContactType AS ContactType
+    ON VendorContact.ContactTypeID = ContactType.ContactTypeID
 
-	/* get first name and last name of agent */
-	inner join Person.Contact as Contact
-	on VendorContact.ContactID = Contact.ContactID
+  /* get first name and last name of agent */
+  JOIN Person.Contact AS Contact
+    ON VendorContact.ContactID = Contact.ContactID
