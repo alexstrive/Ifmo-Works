@@ -8,4 +8,14 @@ SELECT
 FROM Purchasing.VendorAddress AS FirstVendor
 
   JOIN Purchasing.VendorAddress AS SecondVendor
-    ON FirstVendor.VendorID <> SecondVendor.VendorID AND FirstVendor.AddressID = SecondVendor.AddressID
+    ON FirstVendor.VendorID <> SecondVendor.VendorID
+
+  JOIN Person.Address AS FirstVendorAddress
+    ON FirstVendor.AddressID = FirstVendorAddress.AddressID
+
+  JOIN Person.Address AS SecondVendorAddress
+    ON SecondVendor.AddressID = SecondVendorAddress.AddressID
+
+WHERE
+  FirstVendorAddress.City = SecondVendorAddress.City AND
+  FirstVendorAddress.AddressLine1 = SecondVendorAddress.AddressLine1

@@ -1,6 +1,6 @@
 SELECT
-  FirstSalesPerson.SalesPersonID as FirstPersonID,
-  SecondSalesPerson.SalesPersonID as SecondPersonID
+  FirstSalesPerson.SalesPersonID  AS FirstPersonID,
+  SecondSalesPerson.SalesPersonID AS SecondPersonID
 FROM Sales.SalesPerson AS FirstSalesPerson
 
   JOIN Sales.SalesPerson AS SecondSalesPerson
