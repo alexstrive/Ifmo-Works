@@ -107,11 +107,10 @@ def custom_linear_filter(pixel):
 
 
 # Список преобразований
-# linear_transformations = [constant,
-#                           only_red, only_green, only_blue,
-#                           grey_shadows, sepia, negative, custom_sepia, noise, high_light, low_light, black_and_white,
-#                           custom_linear_filter]
-linear_transformations = []
+linear_transformations = [constant,
+                          only_red, only_green, only_blue,
+                          grey_shadows, sepia, negative, custom_sepia, noise, high_light, low_light, black_and_white,
+                          custom_linear_filter]
 
 # Последовательное применение всех преобразований с сохранением результата.
 for transformation in linear_transformations:
@@ -169,8 +168,7 @@ def custom_matrix_filter():
     ]
 
 
-# matrix_filters = [const, blur, sharpen, custom_matrix_filter]
-matrix_filters = [custom_matrix_filter]
+matrix_filters = [const, blur, sharpen, custom_matrix_filter]
 
 
 def matrix_transformation(old_pixels, width, height, x, y, get_matrix):
