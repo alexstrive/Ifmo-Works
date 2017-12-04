@@ -8,7 +8,7 @@ UNION
 
 SELECT
   SalesMan.Bonus * 1.2 AS BonusValue,
-  '20%'          AS Factor
+  '20%'                AS Factor
 FROM Sales.SalesPerson AS SalesMan
 WHERE SalesMan.SalesYTD / SalesMan.SalesQuota < 15 AND SalesMan.SalesYTD / SalesMan.SalesQuota > 10
 

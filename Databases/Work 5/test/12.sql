@@ -1,0 +1,2 @@
+SELECT
+  SalesOrderDetail.SalesOrderID  FROM Sales.SalesOrderDetail  JOIN Sales.SalesOrderHeader ON SalesOrderDetail.SalesOrderID = SalesOrderHeader.SalesOrderID  WHERE OrderDate < ALL (  SELECT DISTINCT OrderDate  FROM Sales.SalesOrderDetail  JOIN Sales.SalesOrderHeader ON SalesOrderDetail.SalesOrderID = SalesOrderDetail.SalesOrderID  WHERE LineTotal > 20000);
