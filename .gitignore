@@ -3,6 +3,9 @@ Programming/OldWorks/Debug
 Programming/OldWorks/**/Debug
 Programming/Works/cmake-build-debug
 Programming/Works/.idea
-Databases/.idea
+Programming/OOP/.idea
+Programming/**/.idea
+Programming/**/out
+Databases/**/*.iml
 Informatics/**/.idea
 ~*
