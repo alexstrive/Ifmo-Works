@@ -6,6 +6,8 @@ Programming/Works/.idea
 Programming/OOP/.idea
 Programming/**/.idea
 Programming/**/out
+Programming/**/cmake-build-debug
+Programming/**/.idea
 Databases/**/*.iml
 Informatics/**/.idea
 ~*
