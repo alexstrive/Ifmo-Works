@@ -1,0 +1,5 @@
+/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 2/cmake-build-debug/CMakeFiles/TaskD.dir
+/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 2/cmake-build-debug/CMakeFiles/TaskC.dir
+/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 2/cmake-build-debug/CMakeFiles/TaskA.dir

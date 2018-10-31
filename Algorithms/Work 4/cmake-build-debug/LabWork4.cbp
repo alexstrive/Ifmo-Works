@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LabWork4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskA">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskA"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskA/fast">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskA" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskA/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskC">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskC"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskC/fast">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskC/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskB">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskB"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskB/fast">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskB" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskB/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskF">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskF"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskF/fast">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskF" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskF/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskD">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskD"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="taskD/fast">
+				<Option output="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/taskD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 taskD/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/taskA.cpp">
+			<Option target="taskA"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/taskB.cpp">
+			<Option target="taskB"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/taskC.cpp">
+			<Option target="taskC"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/taskD.cpp">
+			<Option target="taskD"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/taskF.cpp">
+			<Option target="taskF"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

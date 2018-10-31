@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/LabWork8.dir/taskA.cpp.o CMakeFiles/LabWork8.dir/taskC.cpp.o  -o LabWork8 

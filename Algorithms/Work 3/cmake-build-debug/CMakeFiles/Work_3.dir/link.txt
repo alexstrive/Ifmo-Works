@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Work_3.dir/taskA.cpp.o CMakeFiles/Work_3.dir/taskB.cpp.o  -o Work_3 

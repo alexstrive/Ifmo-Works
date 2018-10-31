@@ -1,0 +1,3 @@
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork7/cmake-build-debug/CMakeFiles/TaskB.dir

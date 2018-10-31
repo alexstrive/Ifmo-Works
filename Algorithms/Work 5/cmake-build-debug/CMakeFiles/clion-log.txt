@@ -1,0 +1,4 @@
+"/Users/allordiron/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/182.4129.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/allordiron/Documents/Private/ИТМО/Работы/Algorithms/LabWork5
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/allordiron/Documents/Private/ИТМО/Работы/Algorithms/LabWork5/cmake-build-debug

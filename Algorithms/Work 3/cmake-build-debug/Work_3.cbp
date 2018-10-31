@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Work_3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_F">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_F" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_F"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_F/fast">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_F" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_F/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_D">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_D"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_D/fast">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_D" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_D/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_C">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_C"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_C/fast">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_C/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_A">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_A" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_A"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_A/fast">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_A" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_A/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_B">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_B" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_B"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_B/fast">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_B" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_B/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_E">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_E" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_E"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_E/fast">
+				<Option output="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug/Task_E" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Task_E/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work\ 3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/taskA.cpp">
+			<Option target="Task_A"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/taskB.cpp">
+			<Option target="Task_B"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/taskC.cpp">
+			<Option target="Task_C"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/taskD.cpp">
+			<Option target="Task_D"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/taskE.cpp">
+			<Option target="Task_E"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/taskF.cpp">
+			<Option target="Task_F"/>
+		</Unit>
+		<Unit filename="/Users/allordiron/Documents/Workspaces/lab-works/Algorithms/Work 3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

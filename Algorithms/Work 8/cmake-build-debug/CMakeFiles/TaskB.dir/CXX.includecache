@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork8/taskB.cpp
+iostream
+-
+fstream
+-
+vector
+-
+

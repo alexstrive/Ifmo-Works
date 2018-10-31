@@ -1,0 +1,7 @@
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/CMakeFiles/taskA.dir
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/CMakeFiles/taskC.dir
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/CMakeFiles/taskB.dir
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/CMakeFiles/taskF.dir
+/Users/allordiron/Documents/ИТМО/Работы/Algorithms/LabWork4/cmake-build-debug/CMakeFiles/taskD.dir
