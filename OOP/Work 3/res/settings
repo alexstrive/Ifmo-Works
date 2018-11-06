@@ -1,0 +1,22 @@
+[COMMON]
+StatisterTimeMs = 5000
+LogNCMD = 1 ; Logging ncmd proto
+LogXML = 0 ; Logging XML proto
+DiskCachePath = /sata/panorama ; Path for file cache OpenMPThreadsCount = 2
+
+[ADC_DEV]
+BufferLenSeconds = 0.65 ; Buffer length for ADC data in GPU memory, seconds. SampleRate = 120000000.0 ; Sample rate of ADC.
+Driver = libusb ; cypress / libusb / random / fileIQS
+
+[NCMD]
+EnableChannelControl = 1 ; Use or not CHG / CHGEXT commands SampleRate = 900000.0 ; ANOTHER Sample Rate. TidPacketVersionForTidControlCommand = 2
+; TidPacket versions
+; 0 - no packets
+; 1 - header: data size,
+; 2 - header: data size,
+
+[LEGACY_XML]
+ListenTcpPort = 1976
+
+[DEBUG]
+PlentySockMaxQSize = 126
