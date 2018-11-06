@@ -1,5 +1,6 @@
 package dao;
 
-public interface Implementation {
-    void createTable(String name);
+abstract class DAOImplementation {
+    abstract void createTable(String title);
+    abstract boolean hasTable(String title);
 }

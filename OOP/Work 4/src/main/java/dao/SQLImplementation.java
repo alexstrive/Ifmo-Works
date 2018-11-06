@@ -1,24 +1,28 @@
+package dao;
+
 import java.sql.*;
 
-public class SQLImplementation implements DAOImplementation {
-    Connection connection;
+public final class SQLImplementation extends DAOImplementation {
+    private Connection connection;
 
-    public SQLImplementation(String address, String login, String password) {
+    SQLImplementation(String address, String login, String password) throws ClassNotFoundException, SQLException {
         var connectionURL = "jdbc:sqlserver://" + address;
 
-        try {
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            connection = DriverManager.getConnection(connectionURL, login, password);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+        connection = DriverManager.getConnection(connectionURL, login, password);
     }
 
     private ResultSet execute(String query) throws SQLException {
-        ResultSet rs;
-        Statement statement;
-        statement =this.connection.createStatement();
-        rs = statement.executeQuery(query);
-        return rs;
+        return this.connection.createStatement().executeQuery(query);
+    }
+
+    @Override
+    public void createTable(String name) {
+
+    }
+
+    @Override
+    boolean hasTable(String title) {
+        return false;
     }
 }
