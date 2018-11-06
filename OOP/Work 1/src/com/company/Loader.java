@@ -5,6 +5,7 @@ import java.nio.file.Paths;
 
 public interface Loader {
     public static Path getFilePath(String fileName) {
+        System.out.println(fileName);
         return Paths.get(NumberList.class.getClassLoader().getResource(fileName).getFile());
     }
 }
