@@ -1,2 +1,8 @@
-./**/.idea/
-./**/out/
+# IDE files
+**/*.iml
+**/.idea/
+# Builds
+**/out/
+**/build/
+# Gradle
+**/.gradle
