@@ -41,6 +41,7 @@ class DataServiceTest {
         var vendorCode = 1001;
         var quantity = 6572;
         var cost = 32;
+        assert false;
     }
 
     /**

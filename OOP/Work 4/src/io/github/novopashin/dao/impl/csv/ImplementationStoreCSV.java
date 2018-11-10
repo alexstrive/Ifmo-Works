@@ -6,6 +6,6 @@ import io.github.novopashin.dao.strategies.custom.store.HasStoreCSV;
 
 public final class ImplementationStoreCSV extends Implementation {
     public ImplementationStoreCSV() {
-        super(new CreateStoreCSV("stores.csv"), new HasStoreCSV("stores.csv"));
+        super(new CreateStoreCSV("stores.csv"), null, new HasStoreCSV("stores.csv"));
     }
 }

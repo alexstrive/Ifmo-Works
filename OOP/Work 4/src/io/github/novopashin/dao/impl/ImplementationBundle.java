@@ -3,11 +3,11 @@ package io.github.novopashin.dao.impl;
 public abstract class ImplementationBundle {
     private Implementation implementationStore, implementationProduct;
 
-    protected Implementation getImplementationStore() {
+    public Implementation getImplementationStore() {
         return implementationStore;
     }
 
-    protected Implementation getImplementationProduct() {
+    public Implementation getImplementationProduct() {
         return implementationProduct;
     }
 

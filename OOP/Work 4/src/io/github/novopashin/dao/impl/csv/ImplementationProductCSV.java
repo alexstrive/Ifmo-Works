@@ -5,6 +5,6 @@ import io.github.novopashin.dao.strategies.custom.product.CreateProductCSV;
 
 public final class ImplementationProductCSV extends Implementation {
     public ImplementationProductCSV() {
-        super(new CreateProductCSV("products.csv"), null);
+        super(new CreateProductCSV("products.csv"), null, null);
     }
 }
