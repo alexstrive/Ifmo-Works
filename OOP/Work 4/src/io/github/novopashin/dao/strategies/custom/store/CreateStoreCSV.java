@@ -5,6 +5,7 @@ import io.github.novopashin.dao.strategies.custom.TargetConsumerCSV;
 import io.github.novopashin.dao.strategies.general.CreateStrategy;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class CreateStoreCSV extends TargetConsumerCSV implements CreateStrategy {
 
@@ -17,7 +18,7 @@ public class CreateStoreCSV extends TargetConsumerCSV implements CreateStrategy 
     }
 
     @Override
-    public void execute(HashMap payload) {
+    public void execute(Map payload) {
         var code = getFreeCodeVendor();
         var title = payload.get("title");
 

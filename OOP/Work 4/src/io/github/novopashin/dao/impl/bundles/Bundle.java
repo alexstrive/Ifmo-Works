@@ -2,7 +2,7 @@ package io.github.novopashin.dao.impl.bundles;
 
 import io.github.novopashin.dao.impl.Implementation;
 
-public abstract class ImplementationBundle {
+public abstract class Bundle {
     private Implementation implementationStore, implementationProduct;
 
     public Implementation getImplementationStore() {

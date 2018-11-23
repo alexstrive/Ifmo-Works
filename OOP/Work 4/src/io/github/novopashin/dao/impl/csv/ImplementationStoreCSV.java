@@ -8,7 +8,8 @@ public final class ImplementationStoreCSV extends Implementation {
     public ImplementationStoreCSV() {
         super(
                 new CreateStoreCSV("stores.csv"),
-                new FilterStoreCSV("stores.csv")
+                new FilterStoreCSV("stores.csv"),
+                null
         );
     }
 }

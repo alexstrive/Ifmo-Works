@@ -5,8 +5,8 @@ import io.github.novopashin.dao.schemes.SchemeType;
 import io.github.novopashin.dao.strategies.custom.TargetConsumerCSV;
 import io.github.novopashin.dao.strategies.general.FilterStrategy;
 
-import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -17,7 +17,7 @@ public class FilterProductCSV extends TargetConsumerCSV implements FilterStrateg
     }
 
     @Override
-    public Optional<List<Scheme>> filter(HashMap<String, String> targetValues) {
+    public Optional<List<Scheme>> filter(Map<String, String> targetValues) {
         var basket = filteredStream(targetValues)
                 .map(values -> new Scheme(SchemeType.PRODUCT, values))
                 .collect(Collectors.toList());

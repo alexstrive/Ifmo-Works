@@ -40,7 +40,7 @@ public abstract class TargetConsumerCSV extends TargetConsumer {
                 .filter(currentValues -> FilterStrategy.isMapValueEqual(currentValues, targetValues));
     }
 
-    private String getFilename() {
+    protected String getFilename() {
         return getTargetObject().toString();
     }
 }

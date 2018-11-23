@@ -32,6 +32,17 @@ public class Scheme {
         set(key, String.valueOf(value));
     }
 
+    protected void set(Object key, Object value) {
+        set(key.toString(), value.toString());
+    }
+
+    public void update(HashMap newPayload) {
+        for (var key : newPayload.keySet()) {
+            set(key, newPayload.get(key));
+        }
+
+    }
+
     public HashMap<String, String> getPayload() {
         return new HashMap<>(payload);
     }

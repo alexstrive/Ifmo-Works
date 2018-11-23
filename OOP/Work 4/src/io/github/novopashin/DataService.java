@@ -5,39 +5,14 @@ import io.github.novopashin.dao.schemes.Scheme;
 import io.github.novopashin.dao.schemes.SchemeProduct;
 import io.github.novopashin.dao.schemes.SchemeStore;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
-import java.util.Properties;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class DataService {
     private DataAccessObject dataAccessObject;
 
     public DataService(Properties properties) {
-        var type = properties.getProperty("type");
-        var host = properties.getProperty("host");
-        var login = properties.getProperty("login");
-        var password = properties.getProperty("password");
-
-        try {
-
-            switch (type) {
-                case "sql":
-                    dataAccessObject = new DataAccessObject(host, login, password);
-                    break;
-
-                case "csv":
-                    dataAccessObject = new DataAccessObject();
-                    break;
-
-                default:
-                    throw new IllegalArgumentException("Incorrect property `type` value");
-            }
-
-        } catch (IllegalArgumentException e) {
-            e.printStackTrace();
-            throw new ExceptionInInitializerError("Failed to initialize a DataService");
-        }
+        this.dataAccessObject = new DataAccessObject(properties);
     }
 
     // Store
@@ -53,7 +28,6 @@ public class DataService {
 
 
     // Product
-
     public void createProduct(String title, int code, int quantity, float cost) {
         var scheme = new SchemeProduct(title, code, quantity, cost);
         this.dataAccessObject.createEntity(scheme);
@@ -64,29 +38,76 @@ public class DataService {
         return this.dataAccessObject.filterEntity(scheme).isPresent();
     }
 
-    public void putProducts() {
+    public void shipProducts(String title, int vendor, int newQuantity, float newPrice) {
+        var scheme = new SchemeProduct(title, vendor, newQuantity, newPrice);
+
+        try {
+            this.dataAccessObject.update(scheme);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public String getMostCheapVendorOfProduct(String title) {
+    // TODO: check for null value
+    public List getMostCheapVendorOfProduct(String title) {
         var scheme = new SchemeProduct(title);
         var products = (ArrayList<Scheme>) this.dataAccessObject.filterEntity(scheme).get();
 
-        return products.stream()
+        var mostCheapProductBatch = products.stream()
                 .reduce((minimumScheme, currentScheme) -> {
                     var minimumCost = Float.valueOf(minimumScheme.getPayload().get("cost"));
                     var currentCost = Float.valueOf(currentScheme.getPayload().get("cost"));
                     return currentCost < minimumCost ? currentScheme : minimumScheme;
                 })
-                .get()
+                .get();
+
+        var mostCheapCost = mostCheapProductBatch
                 .getPayload()
-                .get("vendor");
+                .get("cost");
+
+        return products.stream()
+                .filter(product -> product.getPayload().get("cost").equals(mostCheapCost))
+                .map(product -> product.getPayload().get("vendor"))
+                .collect(Collectors.toList());
     }
 
-    public String getMostCheapVendorOfBatchProduct(String productTitle, int batchNumber) {
-        return "NOT COMPLETED";
+    protected Optional filterProduct() {
+        var scheme = new SchemeProduct();
+        return this.dataAccessObject.filterEntity(scheme);
     }
 
-    public Object determinePossiblePurchases(int upValue) {
-        return null;
+    protected Optional filterProduct(String title) {
+        var scheme = new SchemeProduct(title);
+        return this.dataAccessObject.filterEntity(scheme);
     }
+
+    protected Optional filterProduct(String title, int vendor) {
+        var scheme = new SchemeProduct(title, vendor);
+        return this.dataAccessObject.filterEntity(scheme);
+    }
+
+    public HashMap<String, Integer> whichProductsPossibleBuy(float price) {
+        var products = (ArrayList) filterProduct().get();
+        var results = new HashMap<String, Integer>();
+        products.stream()
+                .forEach(product -> {
+                    var productScheme = (Scheme) product;
+                    var cost = Float.valueOf(productScheme.getPayload().get("cost"));
+                    var title = productScheme.getPayload().get("title");
+                    var quantity = Integer.valueOf(productScheme.getPayload().get("quantity"));
+
+                    var possible = (int) Math.floor(price / cost);
+
+                    if (possible <= quantity && possible != 0) {
+                        results.put(title, possible);
+                    }
+                });
+
+        return results;
+    }
+
+    public void migrate(MigrationType migrationType) {
+        this.dataAccessObject.migrate(migrationType);
+    }
+
 }
