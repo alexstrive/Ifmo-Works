@@ -1,9 +1,9 @@
-package io.github.novopashin.dao.strategies.general;
+package io.github.novopashin.dao.strategies.custom;
 
-public class Targetable {
+public class TargetConsumer {
     private Object targetObject;
 
-    public Targetable(Object targetObject) {
+    public TargetConsumer(Object targetObject) {
         this.targetObject = targetObject;
     }
 

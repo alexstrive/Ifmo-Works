@@ -2,33 +2,24 @@ package io.github.novopashin.dao.impl;
 
 import io.github.novopashin.dao.strategies.general.CreateStrategy;
 import io.github.novopashin.dao.strategies.general.FilterStrategy;
-import io.github.novopashin.dao.strategies.general.HasStrategy;
 
-import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Optional;
 
 public abstract class Implementation {
     private CreateStrategy createStrategy;
     private FilterStrategy filterStrategy;
-    private HasStrategy hasStrategy;
 
-    public Implementation(CreateStrategy createStrategy,
-                          FilterStrategy filterStrategy,
-                          HasStrategy hasStrategy) {
+    public Implementation(CreateStrategy createStrategy, FilterStrategy filterStrategy) {
         this.createStrategy = createStrategy;
         this.filterStrategy = filterStrategy;
-        this.hasStrategy = hasStrategy;
     }
 
-    public void createEntity(Object... values) {
-        createStrategy.execute(values);
+    public void create(HashMap payload) {
+        createStrategy.execute(payload);
     }
 
-    public boolean hasEntity(Object... values) {
-        return hasStrategy.find(values);
-    }
-
-    public <T> ArrayList<T> filter(HashMap query) {
-        return new ArrayList<>();
+    public Optional filter(HashMap query) {
+        return filterStrategy.filter(query);
     }
 }

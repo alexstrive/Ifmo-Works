@@ -1,8 +1,13 @@
 package io.github.novopashin;
 
 import io.github.novopashin.dao.DataAccessObject;
+import io.github.novopashin.dao.schemes.Scheme;
+import io.github.novopashin.dao.schemes.SchemeProduct;
+import io.github.novopashin.dao.schemes.SchemeStore;
 
-import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 import java.util.Properties;
 
 public class DataService {
@@ -29,26 +34,52 @@ public class DataService {
                     throw new IllegalArgumentException("Incorrect property `type` value");
             }
 
-        } catch (IllegalArgumentException | SQLException | ClassNotFoundException e) {
+        } catch (IllegalArgumentException e) {
             e.printStackTrace();
             throw new ExceptionInInitializerError("Failed to initialize a DataService");
         }
     }
 
+    // Store
     public void createStore(String title) {
-        this.dataAccessObject.createStoreEntity(title);
+        var query = new SchemeStore(title);
+        this.dataAccessObject.createEntity(query);
     }
 
-    public boolean hasStore(String storeTitle) {
-        return this.dataAccessObject.hasStoreEntity(storeTitle);
+    public boolean hasStore(String title) {
+        var scheme = new SchemeStore(title);
+        return this.dataAccessObject.filterEntity(scheme).isPresent();
     }
 
-    public Object filter() { return null; }
 
-    public void putProducts() {}
+    // Product
 
-    public String getMostCheapVendorOfProduct(String productTitle) {
-        return "NOT COMPLETED";
+    public void createProduct(String title, int code, int quantity, float cost) {
+        var scheme = new SchemeProduct(title, code, quantity, cost);
+        this.dataAccessObject.createEntity(scheme);
+    }
+
+    public boolean hasProduct(String title) {
+        var scheme = new SchemeProduct(title);
+        return this.dataAccessObject.filterEntity(scheme).isPresent();
+    }
+
+    public void putProducts() {
+    }
+
+    public String getMostCheapVendorOfProduct(String title) {
+        var scheme = new SchemeProduct(title);
+        var products = (ArrayList<Scheme>) this.dataAccessObject.filterEntity(scheme).get();
+
+        return products.stream()
+                .reduce((minimumScheme, currentScheme) -> {
+                    var minimumCost = Float.valueOf(minimumScheme.getPayload().get("cost"));
+                    var currentCost = Float.valueOf(currentScheme.getPayload().get("cost"));
+                    return currentCost < minimumCost ? currentScheme : minimumScheme;
+                })
+                .get()
+                .getPayload()
+                .get("vendor");
     }
 
     public String getMostCheapVendorOfBatchProduct(String productTitle, int batchNumber) {

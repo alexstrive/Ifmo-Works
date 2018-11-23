@@ -1,41 +1,76 @@
 package io.github.novopashin.dao;
 
 import io.github.novopashin.dao.impl.*;
-import io.github.novopashin.dao.impl.csv.BundleCSV;
+import io.github.novopashin.dao.impl.bundles.ImplementationBundle;
+import io.github.novopashin.dao.impl.bundles.ImplementationBundleCSV;
+import io.github.novopashin.dao.schemes.Scheme;
 
-import java.sql.SQLException;
+import java.util.Optional;
 
 public class DataAccessObject {
     private ImplementationBundle bundle;
 
-    public DataAccessObject(String host, String login, String password) throws SQLException, ClassNotFoundException {
-//        bundle = new ImplementationStoresSQL(host, login, password);
+    public DataAccessObject(String host, String login, String password) {
+        // placeholder for sql bundle implementation
     }
 
     public DataAccessObject() {
-        bundle = new BundleCSV();
+        bundle = new ImplementationBundleCSV();
     }
 
-    public void createProductEntity(Object ...values) {
-        this.getImplementationProduct().createEntity(values);
+    /**
+     * Создание сущности по заданной схеме
+     *
+     * @param scheme
+     */
+    public void createEntity(Scheme scheme) {
+        switch (scheme.getType()) {
+            case STORE:
+                this.createStoreEntity(scheme);
+                break;
+            case PRODUCT:
+                this.createProductEntity(scheme);
+                break;
+        }
     }
 
-    public void createStoreEntity(String title) {
-        getImplementationStore().createEntity(title);
+    private void createStoreEntity(Scheme scheme) {
+        getImplementationStore().create(scheme.getPayload());
     }
 
-
-    public boolean hasStoreEntity(String entityTitle) {
-        return this.bundle.getImplementationStore().hasEntity(entityTitle);
+    private void createProductEntity(Scheme scheme) {
+        this.getImplementationProduct().create(scheme.getPayload());
     }
 
-    public boolean hasProductEntity(String entityTitle) {
-        return this.bundle.getImplementationProduct().hasEntity();
+    /**
+     * Фильтрация сущностей по заданной схеме
+     *
+     * @param scheme
+     */
+
+    public Optional filterEntity(Scheme scheme) {
+        switch (scheme.getType()) {
+            case STORE:
+                return filterStoreEntity(scheme);
+            case PRODUCT:
+                return filterProductEntity(scheme);
+        }
+
+        return Optional.empty();
+    }
+
+    private Optional filterStoreEntity(Scheme scheme) {
+        return this.getImplementationStore().filter(scheme.getPayload());
+    }
+
+    private Optional filterProductEntity(Scheme scheme) {
+        return this.getImplementationProduct().filter(scheme.getPayload());
     }
 
     private Implementation getImplementationStore() {
         return this.bundle.getImplementationStore();
     }
+
     private Implementation getImplementationProduct() {
         return this.bundle.getImplementationProduct();
     }

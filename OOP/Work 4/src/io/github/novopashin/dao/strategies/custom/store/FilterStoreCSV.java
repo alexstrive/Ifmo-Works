@@ -1,4 +1,4 @@
-package io.github.novopashin.dao.strategies.custom.product;
+package io.github.novopashin.dao.strategies.custom.store;
 
 import io.github.novopashin.dao.schemes.Scheme;
 import io.github.novopashin.dao.schemes.SchemeType;
@@ -10,16 +10,16 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class FilterProductCSV extends TargetConsumerCSV implements FilterStrategy {
+public class FilterStoreCSV extends TargetConsumerCSV implements FilterStrategy {
 
-    public FilterProductCSV(String filename) {
-        super(filename, "title", "vendor", "quantity", "cost");
+    public FilterStoreCSV(String filename) {
+        super(filename, "code", "title");
     }
 
     @Override
     public Optional<List<Scheme>> filter(HashMap<String, String> targetValues) {
         var basket = filteredStream(targetValues)
-                .map(values -> new Scheme(SchemeType.PRODUCT, values))
+                .map(values -> new Scheme(SchemeType.STORE, values))
                 .collect(Collectors.toList());
 
         if (basket.isEmpty()) {

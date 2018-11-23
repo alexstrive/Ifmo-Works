@@ -1,34 +1,23 @@
 package io.github.novopashin.dao.strategies.custom.product;
 
-import org.apache.commons.csv.CSVFormat;
-import org.apache.commons.csv.CSVPrinter;
+import io.github.novopashin.dao.strategies.custom.TargetConsumerCSV;
+import io.github.novopashin.dao.strategies.general.CreateStrategy;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.net.URISyntaxException;
+import java.util.HashMap;
 
-public class CreateProductCSV extends CreateProduct {
-    public CreateProductCSV(Object filename) {
+public class CreateProductCSV extends TargetConsumerCSV implements CreateStrategy {
+
+    public CreateProductCSV(String filename) {
         super(filename);
     }
 
-    private String getFilename() {
-        return getTargetObject().toString();
-    }
-
     @Override
-    public void execute(Object... values) {
-        var title = values[0];
-        var vendor = values[1];
-        var quantity = values[2];
-        var cost = values[3];
+    public void execute(HashMap payload) {
+        var title = payload.get("title");
+        var vendor = payload.get("vendor");
+        var quantity = payload.get("quantity");
+        var cost = payload.get("cost");
 
-        try (var writerCSV = new CSVPrinter(new FileWriter(
-                new File(ClassLoader.getSystemResource(getFilename()).toURI()), true), CSVFormat.DEFAULT)) {
-            writerCSV.printRecord(title, vendor, quantity, cost);
-        } catch (URISyntaxException | IOException e) {
-            e.printStackTrace();
-        }
+        writeCSV(title, vendor, quantity, cost);
     }
 }

@@ -1,6 +1,9 @@
 import io.github.novopashin.DataService;
 import io.github.novopashin.Loader;
+
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,31 +20,43 @@ class DataServiceTest {
         dataService = new DataService(properties);
     }
 
-
     /**
      * Задание 1
-     *
+     * <p>
      * Создать магазин
      */
     @Test
     void task1() {
-        var storeTitle = "New Store";
-        dataService.createStore(storeTitle);
-        assertTrue(dataService.hasStore(storeTitle), "Содержит созданный магазин");
+        var title = "New Store 2";
+        dataService.createStore(title);
+        assertTrue(dataService.hasStore(title), "Содержит созданный магазин");
+    }
+
+    @Test
+    void noGhostStore() {
+        var title = "Ghost store";
+        assertFalse(dataService.hasStore(title));
     }
 
     /**
      * Задание 2
-     *
+     * <p>
      * Создать товар
      */
     @Test
     void task2() {
-        var productTitle = "Test Product Title";
-        var vendorCode = 1001;
+        var title = "Test Product Title";
+        var vendor = 1001;
         var quantity = 6572;
-        var cost = 32;
-        assert false;
+        var cost = 32.23f;
+        dataService.createProduct(title, vendor, quantity, cost);
+        assertTrue(dataService.hasProduct(title));
+    }
+
+    @Test
+    void noGhostProduct() {
+        var title = "Ghost store";
+        assertFalse(dataService.hasProduct(title));
     }
 
     /**
@@ -62,7 +77,7 @@ class DataServiceTest {
      */
     @Test
     void task4() {
-        assert false;
+        System.out.println(dataService.getMostCheapVendorOfProduct("Guava"));
     }
 
     /**

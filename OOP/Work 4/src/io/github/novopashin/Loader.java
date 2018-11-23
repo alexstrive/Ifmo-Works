@@ -26,7 +26,7 @@ public class Loader {
         try (Stream<String> lines = Files.lines(path)) {
             lines.forEach(line -> fileContent.append(line).append("\n"));
         } catch (IOException exception) {
-            System.err.println("Failed to getRecords file " + path);
+            System.err.println("Failed to open file: " + path);
             exception.printStackTrace();
         }
 
@@ -41,11 +41,11 @@ public class Loader {
         return Loader.class.getClassLoader().getResourceAsStream(filename);
     }
 
-    public static List<CSVRecord> getRecords(String filename) {
+    public static List<CSVRecord> getRecords(String filename, String ...mappings) {
 
         try {
             var targetFile = new File(ClassLoader.getSystemResource(filename).toURI());
-            var dataCSV = new CSVParser(new FileReader(targetFile), CSVFormat.DEFAULT);
+            var dataCSV = new CSVParser(new FileReader(targetFile), CSVFormat.EXCEL.withHeader(mappings));
             return dataCSV.getRecords();
         } catch (IOException | URISyntaxException e) {
             e.printStackTrace();

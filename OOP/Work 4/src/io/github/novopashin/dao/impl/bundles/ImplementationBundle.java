@@ -1,4 +1,6 @@
-package io.github.novopashin.dao.impl;
+package io.github.novopashin.dao.impl.bundles;
+
+import io.github.novopashin.dao.impl.Implementation;
 
 public abstract class ImplementationBundle {
     private Implementation implementationStore, implementationProduct;
