@@ -1,15 +1,12 @@
 package io.github.novopashin.dao;
 
-import io.github.novopashin.MigrationType;
 import io.github.novopashin.dao.impl.*;
 import io.github.novopashin.dao.impl.bundles.*;
 import io.github.novopashin.dao.schemes.Scheme;
 import io.github.novopashin.dao.schemes.SchemeProduct;
 import io.github.novopashin.dao.schemes.SchemeStore;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
 

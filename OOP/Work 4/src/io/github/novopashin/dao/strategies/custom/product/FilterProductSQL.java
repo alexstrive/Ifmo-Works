@@ -27,7 +27,7 @@ public class FilterProductSQL extends TargetConsumerSQL implements FilterStrateg
                 query.append("title = \'" + payload.get("title") + "\' ");
             }
 
-            if (payload.containsKey("vendor")) {
+            if (payload.containsKey("and vendor")) {
                 query.append("vendor = " + payload.get("vendor") + " ");
             }
 

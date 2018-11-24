@@ -35,13 +35,15 @@ public class UpdateProductSQL extends TargetConsumerSQL implements UpdateStrateg
             }
         }
 
-        query
-                .append("where title = \'")
+        query.append("where title = \'")
                 .append(payload.get("title"))
                 .append("\'");
 
+        if (payload.containsKey("vendor")) {
+            query.append("and vendor = ")
+                    .append(payload.get("vendor"));
+        }
 
-        System.out.println(query);
         return query.toString();
     }
 

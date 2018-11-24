@@ -1,7 +1,7 @@
 import io.github.novopashin.DataService;
 import io.github.novopashin.Loader;
 
-import io.github.novopashin.MigrationType;
+import io.github.novopashin.dao.MigrationType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -111,7 +111,11 @@ class DataServiceTest {
      */
     @Test
     void task6() {
-        assert false;
+        var productTitle = "Test Product Title";
+        var batchSize = 12;
+
+        var total = dataService.buy(productTitle, batchSize);
+        System.out.println(total);
     }
 
     /**
@@ -122,7 +126,8 @@ class DataServiceTest {
      */
     @Test
     void task7() {
-        assert false;
+        System.out.println(dataService.cheapBatchProductCost("Test Product Title", 20));
+        System.out.println(dataService.cheapBatchProductCost("Test Product Title", 10));
     }
 
     /**

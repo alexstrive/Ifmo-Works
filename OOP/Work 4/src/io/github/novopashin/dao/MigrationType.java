@@ -1,4 +1,4 @@
-package io.github.novopashin;
+package io.github.novopashin.dao;
 
 public enum MigrationType {
     CSV_TO_SQL,
