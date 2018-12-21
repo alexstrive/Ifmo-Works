@@ -1,21 +1,21 @@
-package io.github.novopashin.account.modificators;
+package io.github.novopashin.account.modifications;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-public interface Amount {
+public interface Operation {
     @Retention(RetentionPolicy.RUNTIME)
-    @Target(ElementType.TYPE)
-    public @interface Max {
+    @Target(ElementType.METHOD)
+    public @interface UsageCommission {
         double value();
-        boolean forShady() default true;
+        boolean forNegative() default true;
     }
 
     @Retention(RetentionPolicy.RUNTIME)
-    @Target(ElementType.TYPE)
-    public @interface Min {
+    @Target(ElementType.METHOD)
+    public @interface Limit {
         double value();
         boolean forShady() default true;
     }

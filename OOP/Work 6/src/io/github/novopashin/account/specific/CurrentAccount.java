@@ -1,9 +1,9 @@
 package io.github.novopashin.account.specific;
 
 import io.github.novopashin.account.Account;
-import io.github.novopashin.account.modificators.Amount;
+import io.github.novopashin.account.modifications.Amount;
 import io.github.novopashin.Client;
-import io.github.novopashin.account.modificators.Operation;
+import io.github.novopashin.account.modifications.Operation;
 import io.github.novopashin.account.AccountDecorator;
 
 @Amount.Min(0.00)

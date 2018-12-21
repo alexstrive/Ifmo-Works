@@ -1,7 +1,7 @@
 package io.github.novopashin.account.specific;
 
 import io.github.novopashin.account.Account;
-import io.github.novopashin.account.modificators.Amount;
+import io.github.novopashin.account.modifications.Amount;
 import io.github.novopashin.Client;
 import io.github.novopashin.account.AccountDecorator;
 

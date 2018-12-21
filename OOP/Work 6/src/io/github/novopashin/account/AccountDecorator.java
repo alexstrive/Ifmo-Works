@@ -1,11 +1,11 @@
 package io.github.novopashin.account;
 
 import io.github.novopashin.Client;
-import io.github.novopashin.account.modificators.Amount;
+import io.github.novopashin.account.modifications.Amount;
 
 import java.math.BigDecimal;
 
-import static io.github.novopashin.account.modificators.Operation.*;
+import static io.github.novopashin.account.modifications.Operation.*;
 
 public abstract class AccountDecorator {
     private BasicAccount decorative;
