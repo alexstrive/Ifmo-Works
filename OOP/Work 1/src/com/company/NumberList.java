@@ -1,6 +1,7 @@
 package com.company;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -66,7 +67,7 @@ public class NumberList<T extends Number> {
         return cache.get(targetValue);
     }
 
-    public static <T extends Number>NumberList fromFile(String fileName, String delimiter) {
+    public static <T extends Number>NumberList fromFile(String fileName, String delimiter) throws URISyntaxException {
         Path filePath = Loader.getFilePath(fileName);
 
         var numberList = new NumberList<RationalNumber>();

@@ -1,7 +1,9 @@
 package com.company;
 
+import java.net.URISyntaxException;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws URISyntaxException {
         var numberList = new NumberList<>();
 
         var fractionOne = new RationalNumber(1, 2);
