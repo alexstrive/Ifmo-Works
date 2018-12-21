@@ -16,7 +16,7 @@ public class CreateProductSQL extends TargetConsumerSQL implements CreateStrateg
         var vendor = payload.get("vendor");
         var quantity = payload.get("quantity");
         var cost = payload.get("cost");
-        System.out.println("insert into " + getTablename() + " values (\'" + title + "\', " + vendor + ", " + quantity + ", " + cost + ")");
+
         update("insert into " + getTablename() + " values (\'" + title + "\', " + vendor + ", " + quantity + ", " + cost + ")");
     }
 }
