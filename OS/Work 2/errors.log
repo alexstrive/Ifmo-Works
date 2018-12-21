@@ -1,0 +1,763 @@
+Sep 19 04:11:55 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 19 04:11:55 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 19 04:11:55 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 19 04:11:55 localhost kernel: ACPI: DSDT 00000000dfff0470 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 19 04:11:55 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 19 04:11:55 localhost kernel: ACPI: APIC 00000000dfff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 19 04:11:55 localhost kernel: ACPI: SSDT 00000000dfff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 19 04:11:55 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 19 04:11:55 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 19 04:11:55 localhost kernel: ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Sep 19 04:11:55 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 19 04:11:55 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 19 04:11:55 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 19 04:11:55 localhost kernel: ACPI: Core revision 20130517
+Sep 19 04:11:55 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 19 04:11:55 localhost kernel: ACPI: bus type PCI registered
+Sep 19 04:11:55 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 19 04:11:55 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 19 04:11:55 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 19 04:11:55 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 19 04:11:55 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 19 04:11:55 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 19 04:11:55 localhost kernel: ACPI: Interpreter enabled
+Sep 19 04:11:55 localhost kernel: ACPI: (supports S0 S5)
+Sep 19 04:11:55 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 19 04:11:55 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 19 04:11:55 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 19 04:11:55 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 19 04:11:55 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 19 04:11:55 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 19 04:11:55 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 19 04:11:55 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 19 04:11:55 localhost kernel: ACPI: bus type USB registered
+Sep 19 04:11:55 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 19 04:11:55 localhost kernel: pnp: PnP ACPI init
+Sep 19 04:11:55 localhost kernel: ACPI: bus type PNP registered
+Sep 19 04:11:55 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 19 04:11:55 localhost kernel: ACPI: bus type PNP unregistered
+Sep 19 04:11:55 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Sep 19 04:11:55 localhost kernel: ACPI: Power Button [PWRF]
+Sep 19 04:11:55 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 19 04:11:55 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 19 04:11:58 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 19 04:17:08 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 19 04:17:08 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 19 04:17:08 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 19 04:17:08 localhost kernel: ACPI: DSDT 00000000dfff0470 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 19 04:17:08 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 19 04:17:08 localhost kernel: ACPI: APIC 00000000dfff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 19 04:17:08 localhost kernel: ACPI: SSDT 00000000dfff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 19 04:17:08 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 19 04:17:08 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 19 04:17:08 localhost kernel: ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Sep 19 04:17:08 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 19 04:17:08 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 19 04:17:08 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 19 04:17:08 localhost kernel: ACPI: Core revision 20130517
+Sep 19 04:17:08 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 19 04:17:08 localhost kernel: ACPI: bus type PCI registered
+Sep 19 04:17:08 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 19 04:17:08 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 19 04:17:08 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 19 04:17:08 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 19 04:17:08 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 19 04:17:08 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 19 04:17:08 localhost kernel: ACPI: Interpreter enabled
+Sep 19 04:17:08 localhost kernel: ACPI: (supports S0 S5)
+Sep 19 04:17:08 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 19 04:17:08 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 19 04:17:08 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 19 04:17:08 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 19 04:17:08 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 19 04:17:08 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 19 04:17:08 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 19 04:17:08 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 19 04:17:08 localhost kernel: ACPI: bus type USB registered
+Sep 19 04:17:08 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 19 04:17:08 localhost kernel: pnp: PnP ACPI init
+Sep 19 04:17:08 localhost kernel: ACPI: bus type PNP registered
+Sep 19 04:17:08 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 19 04:17:08 localhost kernel: ACPI: bus type PNP unregistered
+Sep 19 04:17:08 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Sep 19 04:17:08 localhost kernel: ACPI: Power Button [PWRF]
+Sep 19 04:17:08 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 19 04:17:08 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 19 04:17:10 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 19 04:23:28 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 19 04:23:28 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 19 04:23:28 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 19 04:23:28 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 19 04:23:28 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 19 04:23:28 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 19 04:23:28 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 19 04:23:28 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 19 04:23:28 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 19 04:23:28 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 19 04:23:28 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Sep 19 04:23:28 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Sep 19 04:23:28 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Sep 19 04:23:28 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 19 04:23:28 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 19 04:23:28 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 19 04:23:28 localhost kernel: ACPI: Core revision 20130517
+Sep 19 04:23:28 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 19 04:23:28 localhost kernel: ACPI: bus type PCI registered
+Sep 19 04:23:28 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 19 04:23:28 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 19 04:23:28 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 19 04:23:28 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 19 04:23:28 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 19 04:23:28 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 19 04:23:28 localhost kernel: ACPI: Interpreter enabled
+Sep 19 04:23:28 localhost kernel: ACPI: (supports S0 S5)
+Sep 19 04:23:28 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 19 04:23:28 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 19 04:23:28 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 19 04:23:28 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 19 04:23:28 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 19 04:23:28 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 19 04:23:28 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 19 04:23:28 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 19 04:23:28 localhost kernel: ACPI: bus type USB registered
+Sep 19 04:23:28 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 19 04:23:28 localhost kernel: pnp: PnP ACPI init
+Sep 19 04:23:28 localhost kernel: ACPI: bus type PNP registered
+Sep 19 04:23:28 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 19 04:23:28 localhost kernel: ACPI: bus type PNP unregistered
+Sep 19 04:23:28 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Sep 19 04:23:28 localhost kernel: ACPI: Power Button [PWRF]
+Sep 19 04:23:28 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 19 04:23:28 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 19 04:23:30 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 19 04:44:35 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 19 04:44:35 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 19 04:44:35 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 19 04:44:35 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 19 04:44:35 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 19 04:44:35 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 19 04:44:35 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 19 04:44:35 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 19 04:44:35 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 19 04:44:35 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 19 04:44:35 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Sep 19 04:44:35 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Sep 19 04:44:35 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Sep 19 04:44:35 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 19 04:44:35 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 19 04:44:35 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 19 04:44:35 localhost kernel: ACPI: Core revision 20130517
+Sep 19 04:44:35 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 19 04:44:35 localhost kernel: ACPI: bus type PCI registered
+Sep 19 04:44:35 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 19 04:44:35 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 19 04:44:35 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 19 04:44:35 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 19 04:44:35 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 19 04:44:35 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Sep 19 04:44:35 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 19 04:44:35 localhost kernel: ACPI: Interpreter enabled
+Sep 19 04:44:35 localhost kernel: ACPI: (supports S0 S5)
+Sep 19 04:44:35 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 19 04:44:35 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 19 04:44:35 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 19 04:44:35 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 19 04:44:35 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 19 04:44:35 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 19 04:44:35 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 19 04:44:35 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 19 04:44:35 localhost kernel: ACPI: bus type USB registered
+Sep 19 04:44:35 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 19 04:44:35 localhost kernel: pnp: PnP ACPI init
+Sep 19 04:44:35 localhost kernel: ACPI: bus type PNP registered
+Sep 19 04:44:35 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 19 04:44:35 localhost kernel: ACPI: bus type PNP unregistered
+Sep 19 04:44:35 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Sep 19 04:44:35 localhost kernel: ACPI: Power Button [PWRF]
+Sep 19 04:44:35 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 19 04:44:35 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 19 04:44:38 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 19 04:47:53 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 19 04:47:53 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 19 04:47:53 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 19 04:47:53 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 19 04:47:53 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 19 04:47:53 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 19 04:47:53 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 19 04:47:53 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 19 04:47:53 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 19 04:47:53 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 19 04:47:53 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Sep 19 04:47:53 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Sep 19 04:47:53 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Sep 19 04:47:53 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 19 04:47:53 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 19 04:47:53 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 19 04:47:53 localhost kernel: ACPI: Core revision 20130517
+Sep 19 04:47:53 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 19 04:47:53 localhost kernel: ACPI: bus type PCI registered
+Sep 19 04:47:53 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 19 04:47:53 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 19 04:47:53 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 19 04:47:53 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 19 04:47:53 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 19 04:47:53 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Sep 19 04:47:53 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 19 04:47:53 localhost kernel: ACPI: Interpreter enabled
+Sep 19 04:47:53 localhost kernel: ACPI: (supports S0 S5)
+Sep 19 04:47:53 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 19 04:47:53 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 19 04:47:53 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 19 04:47:53 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 19 04:47:53 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 19 04:47:53 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 19 04:47:53 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 19 04:47:53 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 19 04:47:53 localhost kernel: ACPI: bus type USB registered
+Sep 19 04:47:53 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 19 04:47:53 localhost kernel: pnp: PnP ACPI init
+Sep 19 04:47:53 localhost kernel: ACPI: bus type PNP registered
+Sep 19 04:47:53 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 19 04:47:53 localhost kernel: ACPI: bus type PNP unregistered
+Sep 19 04:47:53 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Sep 19 04:47:53 localhost kernel: ACPI: Power Button [PWRF]
+Sep 19 04:47:53 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 19 04:47:53 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 19 04:47:55 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 19 04:55:31 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 19 04:55:31 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 19 04:55:31 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 19 04:55:31 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 19 04:55:31 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 19 04:55:31 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 19 04:55:31 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 19 04:55:31 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 19 04:55:31 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 19 04:55:31 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 19 04:55:31 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Sep 19 04:55:31 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Sep 19 04:55:31 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Sep 19 04:55:31 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 19 04:55:31 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 19 04:55:31 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 19 04:55:31 localhost kernel: ACPI: Core revision 20130517
+Sep 19 04:55:31 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 19 04:55:31 localhost kernel: ACPI: bus type PCI registered
+Sep 19 04:55:31 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 19 04:55:31 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 19 04:55:31 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 19 04:55:31 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 19 04:55:31 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 19 04:55:31 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Sep 19 04:55:31 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 19 04:55:31 localhost kernel: ACPI: Interpreter enabled
+Sep 19 04:55:31 localhost kernel: ACPI: (supports S0 S5)
+Sep 19 04:55:31 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 19 04:55:31 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 19 04:55:31 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 19 04:55:31 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 19 04:55:31 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 19 04:55:31 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 19 04:55:31 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 19 04:55:31 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 19 04:55:31 localhost kernel: ACPI: bus type USB registered
+Sep 19 04:55:31 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 19 04:55:31 localhost kernel: pnp: PnP ACPI init
+Sep 19 04:55:31 localhost kernel: ACPI: bus type PNP registered
+Sep 19 04:55:31 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 19 04:55:31 localhost kernel: ACPI: bus type PNP unregistered
+Sep 19 04:55:31 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Sep 19 04:55:31 localhost kernel: ACPI: Power Button [PWRF]
+Sep 19 04:55:31 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 19 04:55:31 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 19 04:55:34 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 19 06:55:41 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 19 06:55:41 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 19 06:55:41 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 19 06:55:41 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 19 06:55:41 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 19 06:55:41 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 19 06:55:41 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 19 06:55:41 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 19 06:55:41 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 19 06:55:41 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 19 06:55:41 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Sep 19 06:55:41 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Sep 19 06:55:41 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Sep 19 06:55:41 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 19 06:55:41 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 19 06:55:41 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 19 06:55:41 localhost kernel: ACPI: Core revision 20130517
+Sep 19 06:55:41 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 19 06:55:41 localhost kernel: ACPI: bus type PCI registered
+Sep 19 06:55:41 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 19 06:55:41 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 19 06:55:41 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 19 06:55:41 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 19 06:55:41 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 19 06:55:41 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Sep 19 06:55:41 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 19 06:55:41 localhost kernel: ACPI: Interpreter enabled
+Sep 19 06:55:41 localhost kernel: ACPI: (supports S0 S5)
+Sep 19 06:55:41 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 19 06:55:41 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 19 06:55:41 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 19 06:55:41 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 19 06:55:41 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 19 06:55:41 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 19 06:55:41 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 19 06:55:41 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 19 06:55:41 localhost kernel: ACPI: bus type USB registered
+Sep 19 06:55:41 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 19 06:55:41 localhost kernel: pnp: PnP ACPI init
+Sep 19 06:55:41 localhost kernel: ACPI: bus type PNP registered
+Sep 19 06:55:41 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 19 06:55:41 localhost kernel: ACPI: bus type PNP unregistered
+Sep 19 06:55:41 localhost kernel: ACPI: AC Adapter [AC] (off-line)
+Sep 19 06:55:41 localhost kernel: ACPI: Power Button [PWRF]
+Sep 19 06:55:41 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 19 06:55:41 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 19 06:55:45 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 29 02:28:34 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 29 02:28:34 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 29 02:28:34 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 29 02:28:34 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 29 02:28:34 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 29 02:28:34 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 29 02:28:34 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 29 02:28:34 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 29 02:28:34 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 29 02:28:34 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 29 02:28:34 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Sep 29 02:28:34 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Sep 29 02:28:34 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Sep 29 02:28:34 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 29 02:28:34 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 29 02:28:34 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 29 02:28:34 localhost kernel: ACPI: Core revision 20130517
+Sep 29 02:28:34 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 29 02:28:34 localhost kernel: ACPI: bus type PCI registered
+Sep 29 02:28:34 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 29 02:28:34 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 29 02:28:34 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 29 02:28:34 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 29 02:28:34 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 29 02:28:34 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Sep 29 02:28:34 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 29 02:28:34 localhost kernel: ACPI: Interpreter enabled
+Sep 29 02:28:34 localhost kernel: ACPI: (supports S0 S5)
+Sep 29 02:28:34 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 29 02:28:34 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 29 02:28:34 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 29 02:28:34 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 29 02:28:34 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 29 02:28:34 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 29 02:28:34 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 29 02:28:34 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 29 02:28:34 localhost kernel: ACPI: bus type USB registered
+Sep 29 02:28:34 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 29 02:28:34 localhost kernel: pnp: PnP ACPI init
+Sep 29 02:28:34 localhost kernel: ACPI: bus type PNP registered
+Sep 29 02:28:34 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 29 02:28:34 localhost kernel: ACPI: bus type PNP unregistered
+Sep 29 02:28:34 localhost kernel: ACPI: AC Adapter [AC] (off-line)
+Sep 29 02:28:34 localhost kernel: ACPI: Power Button [PWRF]
+Sep 29 02:28:34 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 29 02:28:34 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 29 02:28:39 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 29 02:32:28 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 29 02:32:28 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 29 02:32:28 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 29 02:32:28 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 29 02:32:28 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 29 02:32:28 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 29 02:32:28 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 29 02:32:28 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 29 02:32:28 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 29 02:32:28 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Sep 29 02:32:28 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Sep 29 02:32:28 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Sep 29 02:32:28 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Sep 29 02:32:28 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 29 02:32:28 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 29 02:32:28 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 29 02:32:28 localhost kernel: ACPI: Core revision 20130517
+Sep 29 02:32:28 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 29 02:32:28 localhost kernel: ACPI: bus type PCI registered
+Sep 29 02:32:28 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 29 02:32:28 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 29 02:32:28 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 29 02:32:28 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 29 02:32:28 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 29 02:32:28 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Sep 29 02:32:28 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 29 02:32:28 localhost kernel: ACPI: Interpreter enabled
+Sep 29 02:32:28 localhost kernel: ACPI: (supports S0 S5)
+Sep 29 02:32:28 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 29 02:32:28 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 29 02:32:28 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 29 02:32:28 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 29 02:32:28 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 29 02:32:28 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 29 02:32:28 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 29 02:32:28 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 29 02:32:28 localhost kernel: ACPI: bus type USB registered
+Sep 29 02:32:28 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 29 02:32:28 localhost kernel: pnp: PnP ACPI init
+Sep 29 02:32:28 localhost kernel: ACPI: bus type PNP registered
+Sep 29 02:32:28 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 29 02:32:28 localhost kernel: ACPI: bus type PNP unregistered
+Sep 29 02:32:28 localhost kernel: ACPI: AC Adapter [AC] (off-line)
+Sep 29 02:32:28 localhost kernel: ACPI: Power Button [PWRF]
+Sep 29 02:32:28 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 29 02:32:28 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 29 02:32:32 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 17 00:49:19 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Oct 17 00:49:19 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 17 00:49:19 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 17 00:49:19 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Oct 17 00:49:19 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Oct 17 00:49:19 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 17 00:49:19 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Oct 17 00:49:19 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Oct 17 00:49:19 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 17 00:49:19 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Oct 17 00:49:19 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Oct 17 00:49:19 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Oct 17 00:49:19 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Oct 17 00:49:19 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 17 00:49:19 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct 17 00:49:19 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Oct 17 00:49:19 localhost kernel: ACPI: Core revision 20130517
+Oct 17 00:49:19 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Oct 17 00:49:19 localhost kernel: ACPI: bus type PCI registered
+Oct 17 00:49:19 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 17 00:49:19 localhost kernel: ACPI: Added _OSI(Module Device)
+Oct 17 00:49:19 localhost kernel: ACPI: Added _OSI(Processor Device)
+Oct 17 00:49:19 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 17 00:49:19 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Oct 17 00:49:19 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Oct 17 00:49:19 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Oct 17 00:49:19 localhost kernel: ACPI: Interpreter enabled
+Oct 17 00:49:19 localhost kernel: ACPI: (supports S0 S5)
+Oct 17 00:49:19 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Oct 17 00:49:19 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 17 00:49:19 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Oct 17 00:49:19 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 17 00:49:19 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct 17 00:49:19 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Oct 17 00:49:19 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Oct 17 00:49:19 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Oct 17 00:49:19 localhost kernel: ACPI: bus type USB registered
+Oct 17 00:49:19 localhost kernel: PCI: Using ACPI for IRQ routing
+Oct 17 00:49:19 localhost kernel: pnp: PnP ACPI init
+Oct 17 00:49:19 localhost kernel: ACPI: bus type PNP registered
+Oct 17 00:49:19 localhost kernel: pnp: PnP ACPI: found 2 devices
+Oct 17 00:49:19 localhost kernel: ACPI: bus type PNP unregistered
+Oct 17 00:49:19 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Oct 17 00:49:19 localhost kernel: ACPI: Power Button [PWRF]
+Oct 17 00:49:19 localhost kernel: ACPI: Sleep Button [SLPF]
+Oct 17 00:49:19 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Oct 17 00:49:24 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 17 04:24:15 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Oct 17 04:24:15 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 17 04:24:15 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 17 04:24:15 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Oct 17 04:24:15 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Oct 17 04:24:15 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 17 04:24:15 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Oct 17 04:24:15 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Oct 17 04:24:15 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 17 04:24:15 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Oct 17 04:24:15 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Oct 17 04:24:15 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Oct 17 04:24:15 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Oct 17 04:24:15 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 17 04:24:15 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct 17 04:24:15 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Oct 17 04:24:15 localhost kernel: ACPI: Core revision 20130517
+Oct 17 04:24:15 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Oct 17 04:24:15 localhost kernel: ACPI: bus type PCI registered
+Oct 17 04:24:15 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 17 04:24:15 localhost kernel: ACPI: Added _OSI(Module Device)
+Oct 17 04:24:15 localhost kernel: ACPI: Added _OSI(Processor Device)
+Oct 17 04:24:15 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 17 04:24:15 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Oct 17 04:24:15 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Oct 17 04:24:15 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Oct 17 04:24:15 localhost kernel: ACPI: Interpreter enabled
+Oct 17 04:24:15 localhost kernel: ACPI: (supports S0 S5)
+Oct 17 04:24:15 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Oct 17 04:24:15 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 17 04:24:15 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Oct 17 04:24:15 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 17 04:24:15 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct 17 04:24:15 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Oct 17 04:24:15 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Oct 17 04:24:15 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Oct 17 04:24:15 localhost kernel: ACPI: bus type USB registered
+Oct 17 04:24:15 localhost kernel: PCI: Using ACPI for IRQ routing
+Oct 17 04:24:15 localhost kernel: pnp: PnP ACPI init
+Oct 17 04:24:15 localhost kernel: ACPI: bus type PNP registered
+Oct 17 04:24:15 localhost kernel: pnp: PnP ACPI: found 2 devices
+Oct 17 04:24:15 localhost kernel: ACPI: bus type PNP unregistered
+Oct 17 04:24:15 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Oct 17 04:24:15 localhost kernel: ACPI: Power Button [PWRF]
+Oct 17 04:24:15 localhost kernel: ACPI: Sleep Button [SLPF]
+Oct 17 04:24:15 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Oct 17 04:24:19 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 17 06:53:20 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Oct 17 06:53:20 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Oct 17 06:53:20 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Oct 17 06:53:20 localhost kernel: ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Oct 17 06:53:20 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Oct 17 06:53:20 localhost kernel: ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Oct 17 06:53:20 localhost kernel: ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Oct 17 06:53:20 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Oct 17 06:53:20 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 17 06:53:20 localhost kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Oct 17 06:53:20 localhost kernel: ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+Oct 17 06:53:20 localhost kernel: ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+Oct 17 06:53:20 localhost kernel: ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+Oct 17 06:53:20 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 17 06:53:20 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct 17 06:53:20 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Oct 17 06:53:20 localhost kernel: ACPI: Core revision 20130517
+Oct 17 06:53:20 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Oct 17 06:53:20 localhost kernel: ACPI: bus type PCI registered
+Oct 17 06:53:20 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 17 06:53:20 localhost kernel: ACPI: Added _OSI(Module Device)
+Oct 17 06:53:20 localhost kernel: ACPI: Added _OSI(Processor Device)
+Oct 17 06:53:20 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 17 06:53:20 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Oct 17 06:53:20 localhost kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Oct 17 06:53:20 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Oct 17 06:53:20 localhost kernel: ACPI: Interpreter enabled
+Oct 17 06:53:20 localhost kernel: ACPI: (supports S0 S5)
+Oct 17 06:53:20 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Oct 17 06:53:20 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Oct 17 06:53:20 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Oct 17 06:53:20 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 17 06:53:20 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct 17 06:53:20 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Oct 17 06:53:20 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Oct 17 06:53:20 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Oct 17 06:53:20 localhost kernel: ACPI: bus type USB registered
+Oct 17 06:53:20 localhost kernel: PCI: Using ACPI for IRQ routing
+Oct 17 06:53:20 localhost kernel: pnp: PnP ACPI init
+Oct 17 06:53:20 localhost kernel: ACPI: bus type PNP registered
+Oct 17 06:53:20 localhost kernel: pnp: PnP ACPI: found 2 devices
+Oct 17 06:53:20 localhost kernel: ACPI: bus type PNP unregistered
+Oct 17 06:53:20 localhost kernel: ACPI: AC Adapter [AC] (on-line)
+Oct 17 06:53:20 localhost kernel: ACPI: Power Button [PWRF]
+Oct 17 06:53:20 localhost kernel: ACPI: Sleep Button [SLPF]
+Oct 17 06:53:20 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Oct 17 06:53:23 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+07:27:46,562 WARNING kernel:ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+07:27:46,562 WARNING kernel:ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+07:27:46,562 WARNING kernel:ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+07:27:46,562 WARNING kernel:ACPI: DSDT 00000000dfff0470 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+07:27:46,562 WARNING kernel:ACPI: FACS 00000000dfff0200 00040
+07:27:46,562 WARNING kernel:ACPI: APIC 00000000dfff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+07:27:46,562 WARNING kernel:ACPI: SSDT 00000000dfff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+07:27:46,562 DEBUG kernel:ACPI: Local APIC address 0xfee00000
+07:27:46,565 INFO kernel:ACPI: PM-Timer IO Port: 0x4008
+07:27:46,565 DEBUG kernel:ACPI: Local APIC address 0xfee00000
+07:27:46,565 INFO kernel:ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+07:27:46,565 INFO kernel:ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+07:27:46,565 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+07:27:46,565 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+07:27:46,565 DEBUG kernel:ACPI: IRQ0 used by override.
+07:27:46,565 DEBUG kernel:ACPI: IRQ9 used by override.
+07:27:46,565 INFO kernel:Using ACPI (MADT) for SMP configuration information
+07:27:46,565 INFO kernel:ACPI: Core revision 20130517
+07:27:46,565 WARNING kernel:ACPI: All ACPI Tables successfully acquired
+07:27:46,565 INFO kernel:ACPI: bus type PCI registered
+07:27:46,565 INFO kernel:acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+07:27:46,565 INFO kernel:ACPI: Added _OSI(Module Device)
+07:27:46,565 INFO kernel:ACPI: Added _OSI(Processor Device)
+07:27:46,565 INFO kernel:ACPI: Added _OSI(3.0 _SCP Extensions)
+07:27:46,565 INFO kernel:ACPI: Added _OSI(Processor Aggregator Device)
+07:27:46,565 DEBUG kernel:ACPI: EC: Look up EC in DSDT
+07:27:46,565 WARNING kernel:ACPI: Executed 1 blocks of module-level executable AML code
+07:27:46,565 INFO kernel:ACPI: Interpreter enabled
+07:27:46,565 INFO kernel:ACPI: (supports S0 S5)
+07:27:46,565 INFO kernel:ACPI: Using IOAPIC for interrupt routing
+07:27:46,565 INFO kernel:PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+07:27:46,565 WARNING kernel:ACPI: Enabled 2 GPEs in block 00 to 07
+07:27:46,565 INFO kernel:ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+07:27:46,567 INFO kernel:ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+07:27:46,567 INFO kernel:ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+07:27:46,567 INFO kernel:ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+07:27:46,567 INFO kernel:ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+07:27:46,567 INFO kernel:ACPI: bus type USB registered
+07:27:46,567 INFO kernel:PCI: Using ACPI for IRQ routing
+07:27:46,567 INFO kernel:pnp: PnP ACPI init
+07:27:46,567 INFO kernel:ACPI: bus type PNP registered
+07:27:46,567 DEBUG kernel:pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+07:27:46,567 DEBUG kernel:pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+07:27:46,567 INFO kernel:pnp: PnP ACPI: found 2 devices
+07:27:46,567 INFO kernel:ACPI: bus type PNP unregistered
+07:27:46,567 INFO kernel:ACPI: AC Adapter [AC] (off-line)
+07:27:46,567 INFO kernel:ACPI: Power Button [PWRF]
+07:27:46,567 INFO kernel:ACPI: Sleep Button [SLPF]
+07:27:46,567 INFO kernel:ACPI: Battery Slot [BAT0] (battery present)
+07:27:50,483 INFO kernel:ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Sep 19 07:27:46 localhost kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Sep 19 07:27:46 localhost kernel: ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Sep 19 07:27:46 localhost kernel: ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Sep 19 07:27:46 localhost kernel: ACPI: DSDT 00000000dfff0470 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Sep 19 07:27:46 localhost kernel: ACPI: FACS 00000000dfff0200 00040
+Sep 19 07:27:46 localhost kernel: ACPI: APIC 00000000dfff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Sep 19 07:27:46 localhost kernel: ACPI: SSDT 00000000dfff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Sep 19 07:27:46 localhost kernel: ACPI: Local APIC address 0xfee00000
+Sep 19 07:27:46 localhost kernel: ACPI: PM-Timer IO Port: 0x4008
+Sep 19 07:27:46 localhost kernel: ACPI: Local APIC address 0xfee00000
+Sep 19 07:27:46 localhost kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Sep 19 07:27:46 localhost kernel: ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Sep 19 07:27:46 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Sep 19 07:27:46 localhost kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Sep 19 07:27:46 localhost kernel: ACPI: IRQ0 used by override.
+Sep 19 07:27:46 localhost kernel: ACPI: IRQ9 used by override.
+Sep 19 07:27:46 localhost kernel: Using ACPI (MADT) for SMP configuration information
+Sep 19 07:27:46 localhost kernel: ACPI: Core revision 20130517
+Sep 19 07:27:46 localhost kernel: ACPI: All ACPI Tables successfully acquired
+Sep 19 07:27:46 localhost kernel: ACPI: bus type PCI registered
+Sep 19 07:27:46 localhost kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Sep 19 07:27:46 localhost kernel: ACPI: Added _OSI(Module Device)
+Sep 19 07:27:46 localhost kernel: ACPI: Added _OSI(Processor Device)
+Sep 19 07:27:46 localhost kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Sep 19 07:27:46 localhost kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Sep 19 07:27:46 localhost kernel: ACPI: EC: Look up EC in DSDT
+Sep 19 07:27:46 localhost kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Sep 19 07:27:46 localhost kernel: ACPI: Interpreter enabled
+Sep 19 07:27:46 localhost kernel: ACPI: (supports S0 S5)
+Sep 19 07:27:46 localhost kernel: ACPI: Using IOAPIC for interrupt routing
+Sep 19 07:27:46 localhost kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Sep 19 07:27:46 localhost kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Sep 19 07:27:46 localhost kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Sep 19 07:27:46 localhost kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Sep 19 07:27:46 localhost kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Sep 19 07:27:46 localhost kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Sep 19 07:27:46 localhost kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Sep 19 07:27:46 localhost kernel: ACPI: bus type USB registered
+Sep 19 07:27:46 localhost kernel: PCI: Using ACPI for IRQ routing
+Sep 19 07:27:46 localhost kernel: pnp: PnP ACPI init
+Sep 19 07:27:46 localhost kernel: ACPI: bus type PNP registered
+Sep 19 07:27:46 localhost kernel: pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Sep 19 07:27:46 localhost kernel: pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Sep 19 07:27:46 localhost kernel: pnp: PnP ACPI: found 2 devices
+Sep 19 07:27:46 localhost kernel: ACPI: bus type PNP unregistered
+Sep 19 07:27:46 localhost kernel: ACPI: AC Adapter [AC] (off-line)
+Sep 19 07:27:46 localhost kernel: ACPI: Power Button [PWRF]
+Sep 19 07:27:46 localhost kernel: ACPI: Sleep Button [SLPF]
+Sep 19 07:27:46 localhost kernel: ACPI: Battery Slot [BAT0] (battery present)
+Sep 19 07:27:50 localhost kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[    0.000000] ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+[    0.000000] ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+[    0.000000] ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+[    0.000000] ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+[    0.000000] ACPI: FACS 00000000dfff0200 00040
+[    0.000000] ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+[    0.000000] ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] ACPI: PM-Timer IO Port: 0x4008
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+[    0.000000] ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[    0.000000] ACPI: IRQ0 used by override.
+[    0.000000] ACPI: IRQ9 used by override.
+[    0.000000] Using ACPI (MADT) for SMP configuration information
+[    0.176158] ACPI: Core revision 20130517
+[    0.176794] ACPI: All ACPI Tables successfully acquired
+[    0.333340] ACPI: bus type PCI registered
+[    0.333342] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.341106] ACPI: Added _OSI(Module Device)
+[    0.341109] ACPI: Added _OSI(Processor Device)
+[    0.341110] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.341111] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.341113] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.341664] ACPI: EC: Look up EC in DSDT
+[    0.341995] ACPI: Executed 1 blocks of module-level executable AML code
+[    0.343958] ACPI: Interpreter enabled
+[    0.343966] ACPI: (supports S0 S5)
+[    0.343967] ACPI: Using IOAPIC for interrupt routing
+[    0.344094] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.344251] ACPI: Enabled 2 GPEs in block 00 to 07
+[    0.348840] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.429140] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+[    0.429410] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+[    0.429514] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+[    0.429616] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+[    0.430062] ACPI: bus type USB registered
+[    0.430788] PCI: Using ACPI for IRQ routing
+[    0.438990] pnp: PnP ACPI init
+[    0.439004] ACPI: bus type PNP registered
+[    0.439078] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.439183] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+[    0.440170] pnp: PnP ACPI: found 2 devices
+[    0.440172] ACPI: bus type PNP unregistered
+[    0.847417] ACPI: AC Adapter [AC] (on-line)
+[    0.847485] ACPI: Power Button [PWRF]
+[    0.847575] ACPI: Sleep Button [SLPF]
+[    0.849152] ACPI: Battery Slot [BAT0] (battery present)
+[    4.655868] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[    0.000000] ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+[    0.000000] ACPI: XSDT 00000000dfff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+[    0.000000] ACPI: FACP 00000000dfff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+[    0.000000] ACPI: DSDT 00000000dfff0480 021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+[    0.000000] ACPI: FACS 00000000dfff0200 00040
+[    0.000000] ACPI: APIC 00000000dfff0240 0006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+[    0.000000] ACPI: SSDT 00000000dfff02b0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] ACPI: PM-Timer IO Port: 0x4008
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+[    0.000000] ACPI: IOAPIC (id[0x04] address[0xfec00000] gsi_base[0])
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[    0.000000] ACPI: IRQ0 used by override.
+[    0.000000] ACPI: IRQ9 used by override.
+[    0.000000] Using ACPI (MADT) for SMP configuration information
+[    0.184718] ACPI: Core revision 20130517
+[    0.185383] ACPI: All ACPI Tables successfully acquired
+[    0.344082] ACPI: bus type PCI registered
+[    0.344083] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.351725] ACPI: Added _OSI(Module Device)
+[    0.351727] ACPI: Added _OSI(Processor Device)
+[    0.351729] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.351730] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.351731] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.352288] ACPI: EC: Look up EC in DSDT
+[    0.352565] ACPI: Executed 1 blocks of module-level executable AML code
+[    0.354363] ACPI: Interpreter enabled
+[    0.354370] ACPI: (supports S0 S5)
+[    0.354371] ACPI: Using IOAPIC for interrupt routing
+[    0.354490] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.354648] ACPI: Enabled 2 GPEs in block 00 to 07
+[    0.359366] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.439878] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+[    0.440106] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+[    0.440236] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+[    0.440336] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+[    0.440848] ACPI: bus type USB registered
+[    0.441493] PCI: Using ACPI for IRQ routing
+[    0.450077] pnp: PnP ACPI init
+[    0.450091] ACPI: bus type PNP registered
+[    0.450164] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.450247] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+[    0.451116] pnp: PnP ACPI: found 2 devices
+[    0.451118] ACPI: bus type PNP unregistered
+[    0.858537] ACPI: AC Adapter [AC] (on-line)
+[    0.858588] ACPI: Power Button [PWRF]
+[    0.858680] ACPI: Sleep Button [SLPF]
+[    0.860496] ACPI: Battery Slot [BAT0] (battery present)
+[    3.783002] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
