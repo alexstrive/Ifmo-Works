@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Person>
+  <fullname lang="RUS">Sergey</fullname>
+  <ChildPerson>
+    <title>test</title>
+  </ChildPerson>
+  <age>32</age>
+</Person>
